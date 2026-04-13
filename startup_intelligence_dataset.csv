@@ -1,0 +1,501 @@
+Sr_No,Date,Startup_Name,Domain,Idea_Type,Target_Market,Min_Budget_INR,Max_Budget_INR,Ideal_Team_Size,Market_Demand_Score,Competition_Level,Growth_Rate_Pct,Technical_Complexity,Execution_Difficulty,Environmental_Impact,Social_Impact_Score,Sustainability_Score,Success_Rate,Risk_Level,Failure_Reasons,City_Location,Lead_Investor,Investment_Stage,Amount_INR,Year
+1,26/01/2024,QuizGenius Labs,EdTech,School LMS,Urban,500000,2000000,25,72,High,22.7,Low,46,Low,80,72,25,Medium,Post-COVID demand drop,Pune,Owl Ventures,Seed,181025578,2024
+2,15/12/2025,FitLife Network,HealthTech,Diagnostic AI,Urban,2000000,150000000,5,82,Medium,24.6,High,76,Low,98,83,34,Medium,Doctor onboarding,Pune,Accel,Series C,16548637796,2025
+3,16/02/2024,TestAce Platform,EdTech,Language Learning,Pan-India,500000,2000000,15,78,High,20.9,Low,56,Low,85,81,27,Medium,Post-COVID demand drop,Chennai,WestBridge,Seed,161623852,2024
+4,12/08/2024,SpaceFinder Network,Real Estate,Co-working,Tier 1,2000000,1000000000,40,73,Medium,8.7,Low,75,Medium,68,70,24,High,Regulatory complexity,Bangalore,Elevation,Series C,16255831269,2024
+5,12/08/2024,EcoGrid Plus,CleanTech,EV Manufacturing,Urban,2000000,20000000,12,80,Low,49.8,High,78,Low,97,86,32,High,Policy dependence,Hyderabad,Nuveen,Series D,48013934780,2024
+6,24/04/2024,ZeroCarbon AI,CleanTech,Battery Swapping,Tier 1,2000000,500000000,80,80,Low,42.7,High,68,Low,98,89,26,High,High capex,Delhi,Accel,Series D,9223117416,2024
+7,29/02/2024,SocialShop Hub,E-Commerce,Social Commerce,Pan-India,20000000,100000000,10,87,High,21.5,Low,60,Medium,63,66,27,High,Unit economics,Chennai,Accel,Series E,50179927202,2024
+8,10/09/2024,EduPath Technologies,EdTech,Coding Bootcamp,Pan-India,500000,10000000,3,72,High,24.2,Low,46,Low,87,72,36,Medium,Post-COVID demand drop,Bangalore,WestBridge,Series A,1777531884,2024
+9,13/07/2024,TruckEasy Technologies,Logistics,B2B Freight,Urban,50000000,2000000000,50,71,High,21.4,Medium,63,Medium,61,67,31,High,Asset intensity,Mumbai,Accel,Series A,1674423162,2024
+10,17/07/2025,DevFlow India,SaaS/Technology,AI/ML Platform,Global,500000,50000000,8,88,High,30.7,High,61,Low,72,69,33,Medium,Churn,Mumbai,Sequoia,Series B,7898595744,2025
+11,29/02/2024,LiveBuy Plus,E-Commerce,D2C Brand,Rural,500000,10000000,50,87,High,17.0,Low,71,Medium,60,51,26,High,Logistics costs,Bangalore,Accel,Series D,48260441810,2024
+12,26/09/2025,MoneyMap AI,FinTech,Tax Filing,Mumbai,2000000,50000000,6,85,High,22.1,Medium,67,Low,74,85,32,Medium,Regulatory challenges,Bangalore,Accel,Seed,362755480,2025
+13,11/03/2024,CleanDrive Network,CleanTech,Energy Storage,Pan-India,100000000,500000000,80,91,Low,30.2,High,82,Low,92,95,23,High,High capex,Bangalore,Accel,Seed,150633248,2024
+14,22/02/2024,KisanPro AI,AgriTech,Crop Insurance,Rural,300000,80000000,6,85,Low,37.7,Medium,65,Low,96,92,26,Medium,Last-mile connectivity,Ahmedabad,Beenext,Seed,120111911,2024
+15,12/02/2024,WellnessHub Network,HealthTech,Teleconsultation,Tier 1,2000000,50000000,5,91,Medium,29.4,High,78,Low,94,76,28,Medium,Regulatory approvals,Hyderabad,Sequoia Capital,Seed,167382931,2024
+16,26/01/2025,SkillUp Pro,EdTech,School LMS,Urban,3000000,30000000,8,77,High,17.9,Low,51,Low,92,80,26,Medium,Post-COVID demand drop,Delhi,WestBridge,Series C,23833255118,2025
+17,20/03/2025,NewsFlash Network,Media/Entertainment,News App,Regional Language,300000,500000000,60,74,High,15.3,Medium,68,Low,55,68,27,High,Monetisation difficulty,Delhi,Lightspeed,Series C,18142630001,2025
+18,12/11/2024,SpaceFinder AI,Real Estate,Smart Homes,Corporate,50000000,200000000,12,78,Medium,14.6,Low,77,Medium,67,64,24,High,Regulatory complexity,Delhi,Sequoia,Series C,14597412886,2024
+19,05/11/2025,HealthFirst Labs,HealthTech,Genomics,Corporate Wellness,5000000,10000000,8,89,Medium,22.7,High,71,Low,87,72,25,Medium,Regulatory approvals,Chennai,Bessemer,Seed,360745634,2025
+20,31/05/2024,TrendHub India,E-Commerce,Social Commerce,Urban,2000000,50000000,50,86,High,12.5,Low,62,Medium,58,64,20,High,Unit economics,Chennai,DST Global,Series D,45583353571,2024
+21,22/09/2024,AutoBot Labs,SaaS/Technology,AI/ML Platform,SMB,2000000,200000000,25,83,High,34.8,High,62,Low,68,78,38,Medium,Pricing pressure,Hyderabad,Sequoia,Series A,2361805098,2024
+22,22/04/2025,RentPro India,Real Estate,Online Broker,Corporate,200000000,1800000000,40,65,Medium,17.4,Low,74,Medium,74,68,26,High,Regulatory complexity,Pune,Helion,Series B,6554492319,2025
+23,11/01/2026,LastMile Pro,Logistics,Warehousing,B2B,1000000,2000000000,100,88,High,21.3,Medium,62,Medium,80,68,22,High,Asset intensity,Delhi,Tiger Global,Series B,6765897285,2026
+24,24/03/2024,DairyTech India,AgriTech,Dairy Tech,Rural,3000000,20000000,4,85,Low,22.6,Medium,60,Low,88,84,31,Medium,Farmer digital literacy,Delhi,Lightspeed,Series A,2293186468,2024
+25,12/09/2025,GenomeScan Technologies,HealthTech,Fitness App,Tier 1,500000,10000000,12,92,Medium,24.8,High,71,Low,86,90,36,Medium,Data privacy issues,Bangalore,Sequoia Capital,Series B,2130269118,2025
+26,13/01/2024,WindTech Pro,CleanTech,Solar Rooftop,Tier 1,20000000,2000000000,12,88,Low,34.4,High,81,Low,98,89,35,High,Policy dependence,Ahmedabad,SoftBank,Series D,47872398606,2024
+27,16/09/2025,RegionalVoice Network,Media/Entertainment,OTT Platform,Youth,5000000,30000000,30,74,High,16.6,Medium,63,Low,65,60,24,High,Monetisation difficulty,Chennai,Matrix,Seed,403620880,2025
+28,23/10/2025,IoTHub Pro,SaaS/Technology,Cloud Infrastructure,Global,500000,200000000,8,88,High,34.5,High,64,Low,78,79,43,Medium,Pricing pressure,Pune,Matrix,Series C,10247418429,2025
+29,19/11/2024,QuickCart Plus,E-Commerce,Quick Commerce,Tier 2 Cities,2000000,1000000000,15,88,High,18.0,Low,58,Medium,61,59,21,High,Unit economics,Delhi,Accel,Seed,415884192,2024
+30,13/01/2024,KnowledgeHub Labs,EdTech,Ed Games,Rural,3000000,30000000,5,71,High,18.3,Low,60,Low,83,72,28,Medium,High CAC,Pune,Accel,Seed,148026963,2024
+31,02/09/2025,StoryTell Platform,Media/Entertainment,Podcast,Youth,20000000,500000000,15,81,High,16.0,Medium,56,Low,74,55,27,High,Content cost,Delhi,Lightspeed,Seed,151760415,2025
+32,26/04/2025,CreatorHub India,Media/Entertainment,Gaming,Tier 2,5000000,500000000,5,75,High,24.0,Medium,61,Low,68,55,23,High,Content cost,Delhi,Lightspeed,Series A,882381574,2025
+33,06/12/2025,DataPulse AI,SaaS/Technology,Cybersecurity,Startups,10000000,500000000,5,91,High,22.7,High,68,Low,70,87,36,Medium,Long sales cycles,Hyderabad,Sequoia,Series D,10153534452,2025
+34,11/10/2024,SecureNet Hub,SaaS/Technology,No-Code Builder,SMB,500000,500000000,15,88,High,28.0,High,58,Low,65,78,41,Medium,Pricing pressure,Pune,Lightspeed,Series C,9832358800,2024
+35,04/11/2025,GoldLink Plus,FinTech,Wealth Management,Bangalore,500000,20000000,20,86,High,28.6,Medium,70,Low,90,79,40,Medium,High competition from incumbents,Gurugram,Tiger Global,Series D,39651655855,2025
+36,02/09/2024,AudioWorld Labs,Media/Entertainment,Podcast,Pan-India,20000000,120000000,5,82,High,24.3,Medium,59,Low,70,61,23,High,Monetisation difficulty,Hyderabad,Matrix,Series C,7417057172,2024
+37,09/10/2024,LearnLocal AI,EdTech,Coding Bootcamp,K-12,1000000,2000000,8,79,High,25.9,Low,63,Low,95,74,29,Medium,Content quality issues,Delhi,Elevation Capital,Series B,3784261082,2024
+38,21/11/2024,InsureNow Pro,FinTech,Crypto Exchange,Bangalore,1000000,200000000,4,79,High,26.5,Medium,73,Low,80,68,41,Medium,Regulatory challenges,Pune,Sequoia Capital,Series C,23696405548,2024
+39,30/09/2025,GreenBuild AI,CleanTech,Solar Rooftop,Industrial,100000000,500000000,40,92,Low,30.9,High,67,Low,91,95,29,High,High capex,Hyderabad,Lightspeed,Seed,112150102,2025
+40,02/01/2025,SoilSmart AI,AgriTech,Precision Farming,Tier 2,8000000,20000000,6,70,Low,23.3,Medium,72,Low,94,85,25,Medium,Last-mile connectivity,Delhi,Accel,Series C,24323459904,2025
+41,16/03/2024,MindCare Network,HealthTech,Health Insurance,Tier 1,10000000,150000000,20,89,Medium,22.4,High,77,Low,98,87,26,Medium,Regulatory approvals,Chennai,Bessemer,Series B,1915880947,2024
+42,12/09/2025,InsureNow Pro,FinTech,Insurance Tech,Urban,2000000,20000000,6,94,High,22.3,Medium,59,Low,90,68,42,Medium,Trust deficit,Gurugram,Sequoia Capital,Series C,6195281916,2025
+43,24/07/2024,DocConnect Plus,HealthTech,Wearables,Corporate Wellness,5000000,50000000,12,95,Medium,31.6,High,74,Low,96,82,37,Medium,Regulatory approvals,Bangalore,Bessemer,Series A,2312420443,2024
+44,27/09/2024,SafeVault Technologies,FinTech,Wealth Management,Tier 1 Cities,2000000,200000000,8,78,High,29.5,Medium,70,Low,70,84,42,Medium,Trust deficit,Pune,Accel,Series A,1718282456,2024
+45,19/05/2025,KisanPro Technologies,AgriTech,Cold Chain,Agri Cooperatives,1000000,300000000,18,76,Low,32.7,Medium,77,Low,91,82,32,Medium,Seasonality,Hyderabad,Omnivore,Series C,9044960981,2025
+46,03/12/2025,TutorAI Plus,EdTech,Coding Bootcamp,Pan-India,3000000,30000000,5,73,High,27.3,Low,59,Low,82,76,32,Medium,Content quality issues,Bangalore,Owl Ventures,Seed,275356030,2025
+47,02/12/2024,DirectBuy Hub,E-Commerce,D2C Brand,Rural,2000000,50000000,50,80,High,20.0,Low,58,Medium,55,54,18,High,Unit economics,Chennai,Accel,Series B,2257245230,2024
+48,04/04/2025,APIBridge Plus,SaaS/Technology,IoT Platform,Global,10000000,50000000,50,82,High,35.1,High,71,Low,69,82,28,Medium,Long sales cycles,Mumbai,Lightspeed,Series C,5822247252,2025
+49,09/05/2024,SmartClass Hub,EdTech,Assessment Tool,K-12,1000000,100000000,25,86,High,18.8,Low,61,Low,93,73,34,Medium,Content quality issues,Chennai,Accel,Series A,1057692162,2024
+50,16/11/2024,GrowthSchool Network,EdTech,Language Learning,Tier 2 Cities,500000,100000000,3,72,High,25.8,Low,47,Low,93,73,33,Medium,Content quality issues,Mumbai,WestBridge,Seed,272650045,2024
+51,21/10/2024,WealthWise Labs,FinTech,Digital Lending,Pan-India,1000000,20000000,12,82,High,32.4,Medium,66,Low,87,76,29,Medium,Regulatory challenges,Mumbai,Nexus Venture,Series C,4823967094,2024
+52,04/07/2024,GoldLink Solutions,FinTech,Tax Filing,Delhi NCR,5000000,25000000,4,77,High,30.7,Medium,61,Low,82,78,35,Medium,Regulatory challenges,Gurugram,Tiger Global,Series B,2622128790,2024
+53,21/11/2025,MoneyMap Labs,FinTech,Wealth Management,Delhi NCR,5000000,200000000,20,89,High,25.0,Medium,61,Low,86,68,33,Medium,Regulatory challenges,Gurugram,Sequoia Capital,Series D,18235559572,2025
+54,04/08/2024,CropAI Labs,AgriTech,Crop Insurance,Pan-India,300000,5000000,18,78,Low,24.8,Medium,72,Low,93,85,26,Medium,Last-mile connectivity,Bangalore,Sequoia,Series C,24822266943,2024
+55,23/10/2024,TruckEasy AI,Logistics,Last Mile Delivery,Urban,5000000,2000000000,25,72,High,18.8,Medium,63,Medium,67,68,29,High,Asset intensity,Delhi,GIC,Series C,11640520154,2024
+56,27/06/2025,CareerFirst Platform,EdTech,Coding Bootcamp,Tier 2 Cities,500000,10000000,3,74,High,18.3,Low,50,Low,84,72,24,Medium,Content quality issues,Hyderabad,Elevation Capital,Series C,7558613553,2025
+57,08/10/2024,GreenChain India,AgriTech,Agri Lending,Agri Cooperatives,300000,80000000,18,79,Low,22.6,Medium,71,Low,98,87,19,Medium,Last-mile connectivity,Ahmedabad,Omnivore,Series C,14255493245,2024
+58,28/05/2025,SecureNet India,SaaS/Technology,Cloud Infrastructure,Global,5000000,10000000,50,92,High,25.1,High,62,Low,74,82,44,Medium,Pricing pressure,Hyderabad,Matrix,Series B,6011847195,2025
+59,08/03/2024,SunPower Technologies,CleanTech,Clean Cooking,Tier 1,20000000,500000000,80,79,Low,38.3,High,69,Low,93,89,32,High,High capex,Ahmedabad,Nuveen,Seed,258596244,2024
+60,04/06/2025,FreightHub India,Logistics,Fleet Management,Urban,5000000,100000000,25,85,High,16.1,Medium,64,Medium,64,57,24,High,Thin margins,Kolkata,GIC,Series E,72111120873,2025
+61,15/06/2024,DocConnect Hub,HealthTech,Fitness App,Senior Citizens,500000,500000000,12,87,Medium,31.6,High,74,Low,97,86,28,Medium,Data privacy issues,Delhi,Sequoia Capital,Series C,14050709078,2024
+62,14/06/2024,WarehouseX Hub,Logistics,Warehousing,Urban,1000000,2000000000,25,87,High,24.3,Medium,76,Medium,63,64,21,High,Thin margins,Chennai,Warburg Pincus,Series D,18303679874,2024
+63,09/02/2025,SafeVault Network,FinTech,Stock Trading App,Bangalore,500000,50000000,6,75,High,23.4,Medium,58,Low,90,75,40,Medium,High competition from incumbents,Bangalore,Tiger Global,Series B,6927401732,2025
+64,02/06/2024,ResellerNet Hub,E-Commerce,Live Commerce,Urban,500000,200000000,10,81,High,13.2,Low,62,Medium,68,70,30,High,Flipkart/Amazon dominance,Bangalore,Elevation Capital,Seed,391854728,2024
+65,15/03/2025,FarmTech Hub,AgriTech,Agri Lending,Tier 2,8000000,20000000,4,81,Low,37.6,Medium,62,Low,93,95,26,Medium,Last-mile connectivity,Bangalore,Lightspeed,Series C,12542334350,2025
+66,03/09/2024,GreenBuild Technologies,CleanTech,Waste Management,Industrial,5000000,20000000,20,92,Low,38.5,High,70,Low,98,92,35,High,Long payback period,Delhi,Blume,Seed,362331049,2024
+67,11/02/2025,HomeDeal Pro,Real Estate,Construction Tech,Urban,10000000,1000000000,20,66,Medium,16.7,Low,75,Medium,70,58,30,High,Long cycles,Hyderabad,Elevation,Series D,30653337306,2025
+68,21/03/2024,QuickRoute Hub,Logistics,Warehousing,B2B,20000000,500000000,10,72,High,17.6,Medium,69,Medium,69,69,29,High,Fuel cost volatility,Mumbai,Prosus,Series E,48309565946,2024
+69,17/03/2024,CreditBridge AI,FinTech,Digital Lending,Mumbai,1000000,5000000,6,94,High,29.5,Medium,69,Low,71,69,29,Medium,High competition from incumbents,Gurugram,Accel,Series C,12489932254,2024
+70,10/01/2025,RentPro Network,Real Estate,Construction Tech,Tier 1,2000000,50000000,12,80,Medium,13.2,Low,68,Medium,70,63,29,High,Long cycles,Pune,Tiger Global,Series C,23290555969,2025
+71,29/11/2025,TutorAI Network,EdTech,Exam Prep,K-12,1000000,30000000,5,90,High,17.3,Low,56,Low,87,73,25,Medium,Post-COVID demand drop,Hyderabad,Sequoia Capital,Seed,294539486,2025
+72,12/11/2024,GrowthSchool Pro,EdTech,Career Platform,Rural,3000000,15000000,8,90,High,16.0,Low,59,Low,91,74,36,Medium,Content quality issues,Mumbai,Owl Ventures,Series A,572755391,2024
+73,20/12/2024,ResellerNet Labs,E-Commerce,Social Commerce,Rural,2000000,200000000,10,81,High,18.1,Low,57,Medium,71,70,20,High,Flipkart/Amazon dominance,Mumbai,DST Global,Series A,1996642230,2024
+74,28/09/2024,GameZone Hub,Media/Entertainment,News App,Regional Language,300000,500000000,60,77,High,20.3,Medium,64,Low,70,59,27,High,Monetisation difficulty,Delhi,Sequoia,Series C,14028476117,2024
+75,27/05/2024,NewsFlash Network,Media/Entertainment,Creator Economy,Youth,1000000,150000000,60,85,High,13.4,Medium,62,Low,69,55,19,High,User retention,Bangalore,Lightspeed,Seed,77196334,2024
+76,13/07/2024,EcoGrid Pro,CleanTech,Clean Cooking,Tier 1,100000000,500000000,40,75,Low,32.3,High,77,Low,96,92,27,High,High capex,Pune,Nuveen,Seed,77150910,2024
+77,14/01/2026,SoilSmart AI,AgriTech,Agri Lending,Rural,8000000,48000000,10,82,Low,26.6,Medium,72,Low,93,92,30,Medium,Last-mile connectivity,Ahmedabad,Sequoia,Seed,131872051,2026
+78,08/09/2025,ResellerNet AI,E-Commerce,Live Commerce,Pan-India,500000,10000000,10,82,High,20.0,Low,71,Medium,69,54,27,High,Flipkart/Amazon dominance,Delhi,Accel,Series D,23429191687,2025
+79,02/11/2024,LiveStage India,Media/Entertainment,Creator Economy,Tier 2,300000,500000000,60,77,High,22.4,Medium,55,Low,74,67,19,High,Monetisation difficulty,Chennai,Kalaari,Series A,1763619031,2024
+80,02/02/2024,LiveBuy Technologies,E-Commerce,B2B Marketplace,Pan-India,20000000,200000000,30,76,High,16.1,Low,61,Medium,68,66,30,High,Flipkart/Amazon dominance,Jaipur,Elevation Capital,Series E,45843109713,2024
+81,26/06/2024,WasteToWorth Plus,CleanTech,Carbon Credits,Government,20000000,500000000,80,90,Low,34.8,High,72,Low,92,93,29,High,High capex,Pune,Accel,Series A,1761810838,2024
+82,23/11/2025,PodcastPro AI,Media/Entertainment,News App,Tier 2,1000000,150000000,5,77,High,24.4,Medium,57,Low,66,66,25,High,User retention,Bangalore,Sequoia,Series A,1992159282,2025
+83,19/08/2024,SpaceFinder Platform,Real Estate,Co-working,Urban,200000000,1000000000,40,68,Medium,14.8,Low,69,Medium,62,72,20,High,Long cycles,Hyderabad,Elevation,Series B,2333045694,2024
+84,28/06/2024,FundRight Solutions,FinTech,Payment Gateway,Bangalore,5000000,20000000,8,76,High,18.2,Medium,73,Low,89,68,42,Medium,Regulatory challenges,Delhi,Accel,Series D,20580937466,2024
+85,25/10/2025,DataPulse Solutions,SaaS/Technology,HR Tech,Enterprise,5000000,50000000,8,91,High,37.4,High,67,Low,73,84,38,Medium,Long sales cycles,Delhi,Lightspeed,Seed,171179760,2025
+86,03/12/2024,HarvestHub Hub,AgriTech,Supply Chain,Rural,3000000,80000000,6,66,Low,32.7,Medium,74,Low,89,83,24,Medium,Last-mile connectivity,Nagpur,Lightspeed,Series B,5789130734,2024
+87,04/02/2026,NoCoder Network,SaaS/Technology,No-Code Builder,Startups,10000000,50000000,8,92,High,35.6,High,57,Low,76,82,44,Medium,Pricing pressure,Bangalore,Tiger Global,Series D,34023483645,2026
+88,28/03/2025,SpaceHub Platform,Real Estate,REITs,Corporate,2000000,5000000000,8,79,Medium,9.3,Low,78,Medium,76,56,26,High,Long cycles,Chennai,Nexus,Series A,425948697,2025
+89,08/07/2025,SkillUp Technologies,EdTech,Ed Games,Pan-India,1000000,100000000,5,74,High,25.0,Low,65,Low,93,81,36,Medium,High CAC,Hyderabad,Elevation Capital,Series C,7155881363,2025
+90,25/06/2025,LastMile Platform,Logistics,Last Mile Delivery,Pan-India,20000000,2000000000,100,83,High,19.9,Medium,67,Medium,67,69,25,High,Thin margins,Mumbai,Warburg Pincus,Series E,18102762174,2025
+91,31/08/2025,SkillUp Pro,EdTech,Assessment Tool,College Students,200000,10000000,3,82,High,20.7,Low,62,Low,86,71,24,Medium,Content quality issues,Mumbai,WestBridge,Series B,3275545432,2025
+92,24/07/2025,WealthWise Solutions,FinTech,Crypto Exchange,Mumbai,5000000,40000000,12,91,High,23.4,Medium,68,Low,83,69,32,Medium,Regulatory challenges,Pune,Tiger Global,Series C,23396238496,2025
+93,02/03/2025,PacknGo Plus,Logistics,Warehousing,E-Commerce,5000000,500000000,15,80,High,21.1,Medium,74,Medium,71,57,28,High,Fuel cost volatility,Delhi,Tiger Global,Series B,2113216497,2025
+94,06/11/2024,SolarEase Platform,CleanTech,Green Hydrogen,Urban,100000000,600000000,40,82,Low,43.8,High,74,Low,94,92,31,High,Policy dependence,Pune,Accel,Series D,45994075124,2024
+95,16/02/2024,ReturnEase Platform,Logistics,Warehousing,Pan-India,20000000,2000000000,25,74,High,16.2,Medium,67,Medium,72,73,33,High,Thin margins,Kolkata,Prosus,Series E,82398484032,2024
+96,15/05/2025,CoWorkX Plus,Real Estate,Co-working,Students,2000000,50000000,8,65,Medium,12.1,Low,72,Medium,64,59,18,High,Capital intensity,Hyderabad,Helion,Series C,18952436882,2025
+97,13/01/2024,SwiftShip Plus,Logistics,Cross Border Shipping,B2B,20000000,180000000,15,73,High,24.1,Medium,76,Medium,64,62,23,High,Fuel cost volatility,Bangalore,GIC,Series B,2555582880,2024
+98,01/12/2025,KisanPro India,AgriTech,Agri Marketplace,Farmer Communities,8000000,300000000,30,80,Low,22.9,Medium,60,Low,96,83,19,Medium,Seasonality,Nagpur,Beenext,Series B,2146885200,2025
+99,01/12/2025,SmartClass Plus,EdTech,Assessment Tool,College Students,200000,10000000,8,70,High,27.5,Low,63,Low,84,82,36,Medium,Post-COVID demand drop,Mumbai,WestBridge,Series A,1932045128,2025
+100,27/05/2025,QuizGenius Network,EdTech,Online Tutoring,Pan-India,3000000,10000000,3,80,High,22.9,Low,64,Low,92,80,22,Medium,Content quality issues,Hyderabad,WestBridge,Series C,13854595550,2025
+101,09/09/2024,AgriPay Technologies,AgriTech,Agri Marketplace,Pan-India,1000000,300000000,6,77,Low,27.1,Medium,63,Low,86,78,22,Medium,Seasonality,Pune,Sequoia,Seed,134564342,2024
+102,01/04/2024,PaisaPlus Plus,FinTech,Neo Banking,Mumbai,2000000,200000000,4,84,High,25.0,Medium,57,Low,87,72,37,Medium,Trust deficit,Hyderabad,Tiger Global,Series C,10191166650,2024
+103,07/03/2025,HarvestHub Pro,AgriTech,Agri Marketplace,Pan-India,3000000,20000000,18,84,Low,31.9,Medium,74,Low,86,82,22,Medium,Farmer digital literacy,Pune,Beenext,Series C,22453361172,2025
+104,12/12/2025,GameZone Pro,Media/Entertainment,Creator Economy,Urban,20000000,150000000,15,83,High,24.6,Medium,62,Low,65,64,19,High,User retention,Mumbai,Matrix,Series A,1958765044,2025
+105,22/02/2025,TestAce Pro,EdTech,Skill Courses,College Students,1000000,10000000,8,74,High,24.3,Low,57,Low,82,84,31,Medium,High CAC,Hyderabad,Owl Ventures,Series C,17485094221,2025
+106,19/06/2024,EcoStore Hub,CleanTech,EV Charging,Government,100000000,500000000,40,78,Low,30.3,High,73,Low,91,93,27,High,Policy dependence,Hyderabad,Accel,Series C,14996005230,2024
+107,22/12/2024,WellnessHub Network,HealthTech,Hospital SaaS,Urban,10000000,150000000,20,83,Medium,25.3,High,79,Low,90,74,29,Medium,Regulatory approvals,Bangalore,Accel,Series B,4403576324,2024
+108,18/04/2025,WarehouseX AI,Logistics,Warehousing,Tier 2,50000000,2000000000,10,76,High,18.9,Medium,73,Medium,72,55,31,High,Thin margins,Bangalore,Tiger Global,Series E,45926973522,2025
+109,17/11/2025,DairyTech Plus,AgriTech,Agri Lending,Agri Cooperatives,8000000,300000000,30,68,Low,27.6,Medium,74,Low,94,83,31,Medium,Last-mile connectivity,Ahmedabad,Sequoia,Seed,135573522,2025
+110,01/02/2025,RentPro Hub,Real Estate,PropTech SaaS,Students,200000000,5000000000,12,80,Medium,14.4,Low,70,Medium,79,60,25,High,Long cycles,Bangalore,Tiger Global,Series C,4389806672,2025
+111,01/06/2025,SpaceFinder Pro,Real Estate,Rental Platform,Corporate,200000000,5000000000,40,70,Medium,8.8,Low,65,Medium,69,64,18,High,Long cycles,Pune,Tiger Global,Series C,20818071788,2025
+112,26/04/2024,CreatorHub Plus,Media/Entertainment,Creator Economy,Regional Language,300000,500000000,60,74,High,24.9,Medium,58,Low,75,59,19,High,Content cost,Delhi,Sequoia,Series B,4325497144,2024
+113,09/10/2025,RegionalVoice Solutions,Media/Entertainment,Live Streaming,Urban,1000000,30000000,5,79,High,18.9,Medium,60,Low,65,61,19,High,Monetisation difficulty,Chennai,Matrix,Seed,136723067,2025
+114,29/05/2024,PureGoods Network,E-Commerce,B2B Marketplace,Urban,20000000,50000000,50,80,High,18.3,Low,67,Medium,69,52,28,High,Logistics costs,Chennai,Elevation Capital,Series E,68876646002,2024
+115,12/10/2025,AIPlatform Network,SaaS/Technology,ERP,Startups,10000000,50000000,25,95,High,25.8,High,63,Low,70,77,38,Medium,Pricing pressure,Hyderabad,Matrix,Series D,12813808130,2025
+116,27/03/2025,MindCare India,HealthTech,Home Healthcare,Urban,2000000,150000000,8,88,Medium,21.1,High,76,Low,89,74,30,Medium,Data privacy issues,Bangalore,Sequoia Capital,Series C,13795936967,2025
+117,20/03/2024,SecureNet Hub,SaaS/Technology,DevTools,Startups,10000000,30000000,15,95,High,24.2,High,68,Low,64,83,30,Medium,Long sales cycles,Bangalore,Lightspeed,Seed,114037370,2024
+118,09/01/2024,StoryTell Solutions,Media/Entertainment,Regional Content,Tier 2,1000000,30000000,30,82,High,23.2,Medium,57,Low,58,56,27,High,Content cost,Noida,Kalaari,Series C,9728973192,2024
+119,06/09/2025,StoryTell Labs,Media/Entertainment,OTT Platform,Tier 2,1000000,30000000,30,77,High,20.4,Medium,62,Low,70,64,16,High,Content cost,Noida,Sequoia,Seed,411787598,2025
+120,20/02/2026,MindCare Technologies,HealthTech,Teleconsultation,Corporate Wellness,500000,10000000,12,86,Medium,20.5,High,66,Low,97,84,33,Medium,Doctor onboarding,Hyderabad,Eight Roads,Series C,16226201044,2026
+121,07/06/2025,EduPath Solutions,EdTech,Career Platform,Tier 2 Cities,3000000,21000000,15,77,High,15.8,Low,47,Low,93,73,29,Medium,Content quality issues,Bangalore,Owl Ventures,Series B,3207757292,2025
+122,12/03/2026,ConstructAI Solutions,Real Estate,Smart Homes,Tier 1,50000000,150000000,20,78,Medium,10.7,Low,67,Medium,70,57,25,High,Long cycles,Delhi,Helion,Series A,2005798757,2026
+123,21/08/2024,QuizGenius Plus,EdTech,Online Tutoring,Pan-India,200000,10000000,3,85,High,19.7,Low,49,Low,85,71,30,Medium,Content quality issues,Mumbai,Elevation Capital,Series B,5255570744,2024
+124,02/07/2024,CashSmart Plus,FinTech,Payment Gateway,Bangalore,500000,200000000,8,84,High,23.6,Medium,72,Low,84,65,33,Medium,High competition from incumbents,Pune,Accel,Series B,8301186902,2024
+125,07/01/2024,FitLife India,HealthTech,Mental Health App,Corporate Wellness,5000000,10000000,12,80,Medium,29.1,High,77,Low,98,81,26,Medium,Regulatory approvals,Mumbai,Eight Roads,Series C,6260132692,2024
+126,14/04/2025,GreenBuild Technologies,CleanTech,Waste Management,Urban,5000000,2000000000,8,76,Low,40.9,High,69,Low,91,89,28,High,Policy dependence,Ahmedabad,SoftBank,Series B,4288123128,2025
+127,05/04/2025,MindCare Network,HealthTech,Home Healthcare,Pan-India,5000000,50000000,20,89,Medium,25.6,High,68,Low,86,77,37,Medium,Data privacy issues,Pune,Lightspeed,Series D,40230276870,2025
+128,24/11/2025,LendEasy Labs,FinTech,BNPL,Pan-India,5000000,200000000,20,92,High,22.2,Medium,69,Low,73,69,29,Medium,High competition from incumbents,Mumbai,Sequoia Capital,Series A,1539848132,2025
+129,17/03/2024,FarmTech Technologies,AgriTech,Cold Chain,Farmer Communities,1000000,5000000,10,68,Low,22.7,Medium,74,Low,85,83,32,Medium,Last-mile connectivity,Nagpur,Beenext,Series C,8048363097,2024
+130,01/06/2024,CloudOps Hub,SaaS/Technology,IoT Platform,Startups,2000000,200000000,25,88,High,37.9,High,70,Low,61,70,36,Medium,Churn,Mumbai,Accel,Series A,2184744518,2024
+131,18/12/2024,NoCoder Plus,SaaS/Technology,API Platform,SMB,5000000,50000000,5,87,High,32.7,High,55,Low,68,69,43,Medium,Pricing pressure,Chennai,Tiger Global,Series A,1111944617,2024
+132,01/02/2025,NewsFlash Solutions,Media/Entertainment,Audio Content,Urban,5000000,150000000,60,68,High,21.1,Medium,66,Low,73,70,17,High,Monetisation difficulty,Hyderabad,Lightspeed,Series B,2681530690,2025
+133,01/01/2024,APIBridge Hub,SaaS/Technology,DevTools,Pan-India,5000000,50000000,15,82,High,22.4,High,59,Low,63,84,39,Medium,Long sales cycles,Delhi,Tiger Global,Series C,7233476744,2024
+134,26/10/2025,APIBridge Solutions,SaaS/Technology,AI/ML Platform,Startups,5000000,50000000,50,95,High,25.2,High,64,Low,69,72,33,Medium,Pricing pressure,Delhi,Sequoia,Series D,35354313659,2025
+135,23/05/2025,BrainBox Network,EdTech,Exam Prep,Urban,1000000,30000000,5,90,High,26.5,Low,47,Low,90,84,22,Medium,High CAC,Mumbai,Sequoia Capital,Seed,287244092,2025
+136,22/01/2025,APIBridge Plus,SaaS/Technology,No-Code Builder,Global,10000000,50000000,8,89,High,23.3,High,56,Low,69,68,38,Medium,Churn,Bangalore,Sequoia,Series B,3473285622,2025
+137,09/05/2025,StreamNow AI,Media/Entertainment,Audio Content,Regional Language,20000000,30000000,5,71,High,16.3,Medium,61,Low,68,69,26,High,Monetisation difficulty,Delhi,Kalaari,Series B,2226273326,2025
+138,04/01/2024,WindTech Technologies,CleanTech,Energy Storage,Government,100000000,400000000,8,81,Low,34.3,High,74,Low,89,92,23,High,Policy dependence,Hyderabad,SoftBank,Series C,12861172503,2024
+139,15/02/2024,DataPulse Pro,SaaS/Technology,Cloud Infrastructure,Enterprise,2000000,200000000,50,82,High,24.7,High,58,Low,62,79,45,Medium,Churn,Hyderabad,Matrix,Series D,32356426102,2024
+140,02/11/2024,DevFlow AI,SaaS/Technology,HR Tech,Startups,2000000,10000000,25,84,High,39.1,High,60,Low,66,74,32,Medium,Long sales cycles,Bangalore,Lightspeed,Series C,22871000116,2024
+141,01/02/2025,CareerFirst AI,EdTech,Career Platform,Tier 2 Cities,1000000,100000000,3,89,High,22.6,Low,58,Low,83,83,24,Medium,Post-COVID demand drop,Pune,Owl Ventures,Seed,115741772,2025
+142,08/08/2025,NoCoder Pro,SaaS/Technology,HR Tech,Pan-India,5000000,500000000,8,91,High,33.0,High,67,Low,61,80,38,Medium,Pricing pressure,Bangalore,Accel,Series C,11748052039,2025
+143,21/08/2024,BrainBox Labs,EdTech,Ed Games,Tier 2 Cities,1000000,100000000,25,90,High,16.2,Low,59,Low,86,83,33,Medium,High CAC,Delhi,Owl Ventures,Seed,402669982,2024
+144,30/01/2024,AudioWorld Platform,Media/Entertainment,Gaming,Pan-India,1000000,5000000,30,69,High,23.9,Medium,61,Low,63,63,28,High,User retention,Hyderabad,Kalaari,Seed,63157897,2024
+145,18/12/2024,EcoGrid Labs,CleanTech,Solar Rooftop,Industrial,2000000,2000000000,8,80,Low,51.3,High,71,Low,91,95,27,High,Long payback period,Pune,Blume,Series C,14801585583,2024
+146,15/09/2024,LiveBuy Labs,E-Commerce,Used Goods Platform,Urban,20000000,200000000,30,80,High,14.2,Low,64,Medium,71,69,24,High,Flipkart/Amazon dominance,Bangalore,Tiger Global,Series D,21022043082,2024
+147,10/10/2024,EcoStore Network,CleanTech,Energy Storage,Industrial,20000000,100000000,12,91,Low,49.1,High,66,Low,97,91,30,High,Long payback period,Ahmedabad,Blume,Seed,390134128,2024
+148,13/07/2024,NewsFlash Platform,Media/Entertainment,Podcast,Youth,5000000,150000000,8,85,High,14.4,Medium,58,Low,70,56,26,High,User retention,Bangalore,Kalaari,Series B,4172876261,2024
+149,23/09/2024,CarbonCut Labs,CleanTech,EV Manufacturing,Urban,100000000,400000000,40,81,Low,42.5,High,77,Low,96,89,33,High,High capex,Delhi,Blume,Series A,2012852086,2024
+150,06/12/2024,AIPlatform Solutions,SaaS/Technology,API Platform,Global,500000,500000000,15,85,High,35.7,High,60,Low,78,73,43,Medium,Long sales cycles,Chennai,Accel,Series C,12766792536,2024
+151,25/11/2024,TaxPilot Plus,FinTech,Stock Trading App,Pan-India,500000,20000000,6,86,High,23.3,Medium,58,Low,82,81,37,Medium,Regulatory challenges,Bangalore,Tiger Global,Seed,250625334,2024
+152,16/12/2024,MindCare Network,HealthTech,Mental Health App,Urban,10000000,60000000,8,84,Medium,22.5,High,65,Low,94,88,27,Medium,Regulatory approvals,Pune,Lightspeed,Seed,304553057,2024
+153,31/10/2025,SkillUp India,EdTech,Exam Prep,Rural,3000000,100000000,3,87,High,18.3,Low,49,Low,86,70,26,Medium,High CAC,Chennai,Accel,Series B,7403422874,2025
+154,22/07/2024,NoCoder Platform,SaaS/Technology,Cybersecurity,Startups,2000000,200000000,25,86,High,24.9,High,72,Low,75,74,43,Medium,Churn,Bangalore,Accel,Seed,104091852,2024
+155,10/01/2026,QuizGenius Technologies,EdTech,Language Learning,College Students,500000,100000000,8,78,High,21.0,Low,48,Low,85,71,35,Medium,High CAC,Chennai,WestBridge,Series B,2734664913,2026
+156,02/12/2024,PharmaGo Pro,HealthTech,Health Insurance,Tier 1,500000,150000000,12,85,Medium,21.4,High,77,Low,92,80,38,Medium,Doctor onboarding,Hyderabad,Bessemer,Series A,2368025264,2024
+157,25/11/2025,LiveStage Solutions,Media/Entertainment,Live Streaming,Youth,5000000,25000000,30,83,High,13.5,Medium,68,Low,69,53,16,High,User retention,Mumbai,Matrix,Series A,1883127822,2025
+158,01/06/2024,PacknGo Hub,Logistics,Last Mile Delivery,Pan-India,5000000,2000000000,50,75,High,14.8,Medium,75,Medium,70,62,25,High,Asset intensity,Kolkata,Accel,Series A,1075921798,2024
+159,19/11/2024,DevFlow Pro,SaaS/Technology,HR Tech,Global,10000000,500000000,5,90,High,31.9,High,57,Low,79,87,37,Medium,Pricing pressure,Hyderabad,Matrix,Series C,23099835540,2024
+160,03/01/2026,WasteToWorth Technologies,CleanTech,Solar Rooftop,Pan-India,2000000,500000000,20,84,Low,43.7,High,76,Low,89,85,25,High,Policy dependence,Ahmedabad,Blume,Series C,8378665466,2026
+161,20/04/2024,WindTech India,CleanTech,Waste Management,Urban,100000000,2000000000,80,91,Low,33.4,High,80,Low,88,93,21,High,Long payback period,Mumbai,SoftBank,Series C,8067259648,2024
+162,12/09/2025,NewsFlash Plus,Media/Entertainment,News App,Youth,1000000,150000000,30,78,High,24.6,Medium,69,Low,59,56,21,High,Monetisation difficulty,Delhi,Kalaari,Series B,4926576736,2025
+163,30/05/2025,HomeCure Network,HealthTech,Online Pharmacy,Tier 1,10000000,500000000,35,89,Medium,30.5,High,78,Low,97,72,33,Medium,Regulatory approvals,Hyderabad,Accel,Series A,576094974,2025
+164,04/03/2024,ElderCare Labs,HealthTech,Mental Health App,Corporate Wellness,500000,150000000,20,83,Medium,27.4,High,72,Low,96,89,31,Medium,Regulatory approvals,Pune,Eight Roads,Series B,6013394784,2024
+165,31/01/2026,LendEasy Platform,FinTech,Tax Filing,Bangalore,1000000,50000000,20,92,High,30.6,Medium,61,Low,76,74,35,Medium,High competition from incumbents,Mumbai,Sequoia Capital,Series A,1474332112,2026
+166,18/09/2024,StreamNow Network,Media/Entertainment,Regional Content,Urban,300000,30000000,15,69,High,22.1,Medium,64,Low,70,70,23,High,User retention,Noida,Tiger Global,Series B,7504528516,2024
+167,17/02/2025,SpaceHub Network,Real Estate,Online Broker,Tier 1,50000000,1000000000,20,74,Medium,10.2,Low,80,Medium,79,55,19,High,Regulatory complexity,Hyderabad,Nexus,Series B,5266798906,2025
+168,26/01/2024,FreshRoute Network,AgriTech,Dairy Tech,Agri Cooperatives,8000000,300000000,4,74,Low,36.4,Medium,66,Low,90,94,19,Medium,Farmer digital literacy,Ahmedabad,Accel,Seed,87609620,2024
+169,24/10/2025,TruckEasy Solutions,Logistics,Last Mile Delivery,E-Commerce,20000000,80000000,10,71,High,16.0,Medium,68,Medium,77,57,29,High,Thin margins,Chennai,Warburg Pincus,Series C,11266998853,2025
+170,05/03/2024,StoryTell India,Media/Entertainment,Short Video,Tier 2,300000,150000000,15,70,High,15.7,Medium,69,Low,67,64,28,High,Monetisation difficulty,Hyderabad,Tiger Global,Series A,799612867,2024
+171,24/11/2025,AgriPay Network,AgriTech,Farm Management SaaS,Agri Cooperatives,1000000,5000000,4,65,Low,31.2,Medium,72,Low,93,95,19,Medium,Seasonality,Nagpur,Accel,Series B,7414270443,2025
+172,27/04/2024,DirectBuy Hub,E-Commerce,D2C Brand,Bharat,20000000,140000000,5,80,High,13.0,Low,70,Medium,65,61,20,High,Flipkart/Amazon dominance,Bangalore,Accel,Series B,5231484251,2024
+173,02/08/2025,GenomeScan Network,HealthTech,Wearables,Senior Citizens,2000000,10000000,12,87,Medium,29.4,High,78,Low,89,83,27,Medium,Data privacy issues,Hyderabad,Lightspeed,Series C,16540371296,2025
+174,05/07/2025,CareAI Labs,HealthTech,Online Pharmacy,Pan-India,500000,10000000,35,92,Medium,29.2,High,71,Low,85,89,29,Medium,Data privacy issues,Hyderabad,Eight Roads,Series A,1043159404,2025
+175,02/04/2024,RentPro Network,Real Estate,Affordable Housing,Urban,10000000,200000000,80,69,Medium,12.5,Low,70,Medium,80,59,29,High,Regulatory complexity,Delhi,Elevation,Series A,1783773342,2024
+176,14/06/2025,FlashDeal AI,E-Commerce,Reseller Platform,Urban,500000,10000000,15,75,High,19.0,Low,71,Medium,75,58,29,High,Unit economics,Chennai,DST Global,Series D,34694890194,2025
+177,16/08/2024,PacknGo AI,Logistics,Fleet Management,Urban,50000000,2000000000,100,70,High,19.5,Medium,64,Medium,74,60,23,High,Thin margins,Hyderabad,GIC,Series B,3433532191,2024
+178,04/12/2024,FleetPro Technologies,Logistics,Returns Management,E-Commerce,50000000,100000000,100,75,High,21.1,Medium,73,Medium,60,62,20,High,Thin margins,Kolkata,GIC,Series A,1853820073,2024
+179,13/06/2025,FitLife Hub,HealthTech,Health Insurance,Pan-India,5000000,10000000,8,94,Medium,27.3,High,80,Low,98,87,27,Medium,Regulatory approvals,Chennai,Bessemer,Series A,2265700606,2025
+180,11/03/2024,GameZone AI,Media/Entertainment,News App,Urban,300000,5000000,8,84,High,23.2,Medium,68,Low,59,55,17,High,User retention,Chennai,Kalaari,Seed,413989410,2024
+181,18/06/2025,QuickRoute Network,Logistics,Last Mile Delivery,B2B,50000000,100000000,50,82,High,17.9,Medium,78,Medium,63,68,22,High,Asset intensity,Mumbai,Prosus,Seed,240163786,2025
+182,16/06/2025,SkillUp AI,EdTech,School LMS,College Students,1000000,100000000,8,73,High,17.0,Low,65,Low,88,78,35,Medium,Content quality issues,Pune,Elevation Capital,Series B,3952831550,2025
+183,22/07/2025,CommercialHub Labs,Real Estate,Construction Tech,Students,50000000,5000000000,12,68,Medium,15.5,Low,79,Medium,67,58,21,High,Regulatory complexity,Delhi,Elevation,Private Equity,115982941962,2025
+184,06/03/2024,SmartClass Platform,EdTech,Coding Bootcamp,Pan-India,200000,100000000,15,89,High,23.5,Low,54,Low,81,75,32,Medium,High CAC,Bangalore,Elevation Capital,Series A,963139768,2024
+185,22/06/2024,StreamNow Network,Media/Entertainment,Gaming,Pan-India,1000000,5000000,15,80,High,16.6,Medium,67,Low,67,70,18,High,Monetisation difficulty,Noida,Tiger Global,Seed,104906561,2024
+186,12/09/2025,SocialShop Pro,E-Commerce,Subscription Box,Bharat,500000,200000000,10,85,High,17.1,Low,72,Medium,57,66,22,High,Unit economics,Chennai,Tiger Global,Series B,5896006643,2025
+187,23/08/2025,CloudOps Pro,SaaS/Technology,ERP,Enterprise,500000,500000000,8,92,High,34.6,High,65,Low,73,79,44,Medium,Pricing pressure,Delhi,Sequoia,Series B,6140887510,2025
+188,17/11/2024,APIBridge Platform,SaaS/Technology,IoT Platform,Enterprise,2000000,50000000,25,93,High,25.6,High,62,Low,68,74,35,Medium,Long sales cycles,Chennai,Accel,Series B,3013499803,2024
+189,13/02/2024,CommercialHub Network,Real Estate,REITs,Pan-India,200000000,1000000000,40,70,Medium,17.8,Low,73,Medium,74,62,30,High,Regulatory complexity,Mumbai,Tiger Global,Private Equity,90332053834,2024
+190,16/04/2025,SmartHome India,Real Estate,Co-working,Tier 1,200000000,1600000000,20,73,Medium,9.9,Low,73,Medium,69,63,25,High,Regulatory complexity,Delhi,Nexus,Series B,6366850117,2025
+191,06/04/2025,CropAI Hub,AgriTech,Precision Farming,Agri Cooperatives,1000000,5000000,10,72,Low,30.9,Medium,72,Low,88,82,30,Medium,Last-mile connectivity,Hyderabad,Accel,Seed,165454332,2025
+192,15/03/2026,WasteToWorth Labs,CleanTech,Energy Storage,Government,2000000,2000000000,8,80,Low,31.5,High,73,Low,95,98,23,High,Policy dependence,Pune,Accel,Series B,4558256483,2026
+193,22/07/2024,StoryTell Hub,Media/Entertainment,Podcast,Urban,5000000,150000000,15,84,High,18.3,Medium,69,Low,57,64,24,High,User retention,Noida,Sequoia,Series A,1362792896,2024
+194,14/06/2024,TutorAI Platform,EdTech,Coding Bootcamp,Tier 2 Cities,1000000,30000000,25,90,High,20.1,Low,59,Low,91,88,30,Medium,High CAC,Mumbai,Elevation Capital,Series A,2456569165,2024
+195,15/04/2024,TruckEasy Technologies,Logistics,Returns Management,B2B,1000000,20000000,50,86,High,22.4,Medium,62,Medium,63,63,29,High,Thin margins,Hyderabad,Accel,Series C,14108157578,2024
+196,05/02/2024,CreditBridge Network,FinTech,Digital Lending,Bangalore,5000000,50000000,20,89,High,20.3,Medium,72,Low,75,83,37,Medium,Regulatory challenges,Delhi,Nexus Venture,Series D,18531877692,2024
+197,23/09/2024,LastMile Labs,Logistics,Last Mile Delivery,Pan-India,5000000,500000000,25,85,High,19.9,Medium,75,Medium,75,64,20,High,Asset intensity,Kolkata,Warburg Pincus,Series A,1464373568,2024
+198,02/01/2026,ElderCare AI,HealthTech,Home Healthcare,Urban,5000000,10000000,20,87,Medium,26.2,High,73,Low,89,89,37,Medium,Doctor onboarding,Mumbai,Bessemer,Seed,169516857,2026
+199,18/05/2025,GameZone Network,Media/Entertainment,OTT Platform,Urban,300000,5000000,8,71,High,15.7,Medium,59,Low,69,52,18,High,Content cost,Mumbai,Lightspeed,Series C,21786531006,2025
+200,04/12/2024,MoneyMap Solutions,FinTech,Payment Gateway,Tier 1 Cities,5000000,50000000,6,81,High,33.2,Medium,63,Low,82,65,29,Medium,Trust deficit,Delhi,Tiger Global,Series C,14504313642,2024
+201,02/02/2025,AIPlatform Labs,SaaS/Technology,API Platform,Pan-India,500000,10000000,15,89,High,33.5,High,61,Low,71,69,34,Medium,Long sales cycles,Delhi,Accel,Series C,17280606228,2025
+202,13/03/2026,LiveStage Hub,Media/Entertainment,Audio Content,Tier 2,300000,30000000,8,83,High,13.2,Medium,65,Low,75,53,15,High,User retention,Noida,Lightspeed,Seed,129885670,2026
+203,22/01/2024,PureGoods AI,E-Commerce,Niche Retail,Tier 2 Cities,5000000,10000000,30,86,High,17.6,Low,72,Medium,70,56,27,High,Logistics costs,Delhi,DST Global,Series B,7884609076,2024
+204,08/07/2025,SoilSmart Pro,AgriTech,Farm Management SaaS,Agri Cooperatives,8000000,20000000,4,84,Low,35.7,Medium,67,Low,90,80,28,Medium,Last-mile connectivity,Delhi,Beenext,Series C,13360506428,2025
+205,14/02/2024,BrainBox Solutions,EdTech,Online Tutoring,Urban,200000,100000000,5,73,High,15.4,Low,65,Low,92,85,30,Medium,Content quality issues,Delhi,Owl Ventures,Seed,298362200,2024
+206,16/10/2025,CloudOps Network,SaaS/Technology,AI/ML Platform,SMB,5000000,10000000,50,86,High,31.5,High,57,Low,69,70,34,Medium,Pricing pressure,Bangalore,Sequoia,Series A,948329206,2025
+207,03/02/2026,TruckEasy Hub,Logistics,Fleet Management,E-Commerce,50000000,250000000,15,87,High,18.4,Medium,70,Medium,65,72,29,High,Asset intensity,Bangalore,Warburg Pincus,Series D,36737376180,2026
+208,12/07/2025,GameZone AI,Media/Entertainment,Podcast,Tier 2,5000000,500000000,30,80,High,12.0,Medium,56,Low,64,52,23,High,Content cost,Mumbai,Matrix,Series B,1913211118,2025
+209,07/08/2025,BuildTech Solutions,Real Estate,Co-living,Urban,200000000,1000000000,12,69,Medium,10.6,Low,72,Medium,69,63,30,High,Long cycles,Pune,Sequoia,Series D,29981345088,2025
+210,07/04/2024,StoryTell Labs,Media/Entertainment,OTT Platform,Regional Language,20000000,60000000,15,79,High,23.4,Medium,68,Low,68,55,28,High,Content cost,Mumbai,Kalaari,Series C,11332275980,2024
+211,05/06/2024,ShopSmart AI,E-Commerce,Reseller Platform,Bharat,500000,50000000,30,81,High,19.9,Low,59,Medium,59,60,19,High,Unit economics,Jaipur,DST Global,Seed,321363026,2024
+212,26/07/2025,AutoBot Pro,SaaS/Technology,No-Code Builder,Startups,2000000,50000000,8,83,High,26.8,High,68,Low,70,86,30,Medium,Long sales cycles,Mumbai,Lightspeed,Series B,5531152725,2025
+213,28/03/2025,StoryTell Solutions,Media/Entertainment,Regional Content,Pan-India,1000000,30000000,15,72,High,21.9,Medium,57,Low,58,53,18,High,Monetisation difficulty,Delhi,Lightspeed,Seed,282193928,2025
+214,27/07/2024,ResellerNet Plus,E-Commerce,Used Goods Platform,Bharat,20000000,50000000,5,84,High,17.8,Low,71,Medium,56,58,20,High,Logistics costs,Mumbai,Nexus,Series E,75907338904,2024
+215,20/04/2024,SolarEase Labs,CleanTech,Smart Grid,Pan-India,100000000,800000000,40,92,Low,32.2,High,71,Low,96,92,20,High,High capex,Mumbai,Blume,Series B,3429586148,2024
+216,29/08/2024,FreshRoute Labs,AgriTech,Farm Management SaaS,Pan-India,8000000,56000000,6,69,Low,27.5,Medium,72,Low,95,82,19,Medium,Last-mile connectivity,Ahmedabad,Beenext,Series A,2022644298,2024
+217,30/07/2024,NutriFit Solutions,HealthTech,Health Insurance,Corporate Wellness,2000000,50000000,12,84,Medium,25.2,High,69,Low,95,90,27,Medium,Doctor onboarding,Chennai,Accel,Series D,9671700625,2024
+218,02/02/2026,AIPlatform Labs,SaaS/Technology,CRM,Pan-India,500000,50000000,8,82,High,35.7,High,63,Low,79,86,35,Medium,Pricing pressure,Hyderabad,Accel,Seed,293394117,2026
+219,07/07/2024,WindTech Pro,CleanTech,EV Manufacturing,Pan-India,5000000,100000000,12,76,Low,40.2,High,65,Low,92,91,27,High,Long payback period,Delhi,Blume,Seed,165784156,2024
+220,14/09/2025,InsureNow AI,FinTech,Digital Lending,Bangalore,500000,5000000,12,89,High,32.1,Medium,56,Low,77,81,36,Medium,Regulatory challenges,Pune,Sequoia Capital,Series C,8430374010,2025
+221,17/04/2025,CropAI AI,AgriTech,Crop Insurance,Agri Cooperatives,300000,20000000,18,85,Low,29.2,Medium,76,Low,86,83,30,Medium,Last-mile connectivity,Delhi,Lightspeed,Series C,8184448892,2025
+222,13/09/2024,TutorAI Solutions,EdTech,Exam Prep,Pan-India,200000,100000000,8,72,High,21.8,Low,57,Low,85,82,30,Medium,High CAC,Mumbai,Accel,Series B,3674592015,2024
+223,22/10/2024,AIPlatform Solutions,SaaS/Technology,ERP,Pan-India,2000000,10000000,50,94,High,26.6,High,69,Low,75,83,45,Medium,Long sales cycles,Mumbai,Matrix,Series A,2265201527,2024
+224,07/09/2024,SafeVault Labs,FinTech,Tax Filing,Delhi NCR,1000000,5000000,6,79,High,18.9,Medium,66,Low,71,69,41,Medium,High competition from incumbents,Pune,Nexus Venture,Series B,2219503313,2024
+225,07/11/2025,StoryTell Hub,Media/Entertainment,Podcast,Urban,20000000,150000000,5,70,High,22.0,Medium,65,Low,66,64,28,High,Content cost,Chennai,Sequoia,Seed,246864243,2025
+226,02/08/2024,LiveEasy Hub,Real Estate,Co-working,Urban,2000000,5000000000,80,74,Medium,12.3,Low,75,Medium,70,71,27,High,Regulatory complexity,Bangalore,Nexus,Private Equity,135410208440,2024
+227,02/01/2024,QuickCart India,E-Commerce,Reseller Platform,Pan-India,2000000,1000000000,30,73,High,15.3,Low,72,Medium,75,56,18,High,Flipkart/Amazon dominance,Jaipur,Accel,Series B,5119262422,2024
+228,03/12/2025,TutorAI Network,EdTech,Corporate Training,College Students,200000,10000000,5,80,High,25.8,Low,60,Low,95,71,32,Medium,Post-COVID demand drop,Mumbai,Elevation Capital,Series C,22893361082,2025
+229,01/08/2024,WealthWise Network,FinTech,Digital Lending,Pan-India,1000000,50000000,4,85,High,34.7,Medium,75,Low,87,70,37,Medium,Trust deficit,Mumbai,SAIF Partners,Series D,9767852378,2024
+230,15/01/2025,StreetShop Labs,E-Commerce,B2B Marketplace,Bharat,5000000,50000000,5,83,High,19.8,Low,61,Medium,57,64,26,High,Logistics costs,Chennai,Elevation Capital,Series A,1772089271,2025
+231,23/11/2025,CoWorkX Platform,Real Estate,Co-working,Corporate,200000000,600000000,20,66,Medium,14.9,Low,67,Medium,72,69,18,High,Capital intensity,Chennai,Helion,Series C,11367328278,2025
+232,02/03/2026,WasteToWorth Technologies,CleanTech,Energy Storage,Pan-India,5000000,500000000,8,75,Low,54.0,High,82,Low,96,86,26,High,Long payback period,Mumbai,Accel,Series B,4844632091,2026
+233,07/07/2025,WasteToWorth India,CleanTech,Battery Swapping,Urban,100000000,400000000,40,76,Low,32.2,High,77,Low,90,96,34,High,Long payback period,Pune,Accel,Series B,7648861772,2025
+234,09/04/2024,TalentOS Labs,SaaS/Technology,Cloud Infrastructure,SMB,2000000,50000000,8,95,High,38.1,High,63,Low,71,80,33,Medium,Pricing pressure,Pune,Tiger Global,Series C,6705291232,2024
+235,25/02/2026,SoilSmart Hub,AgriTech,Supply Chain,Tier 2,300000,300000000,4,75,Low,30.9,Medium,62,Low,97,87,26,Medium,Seasonality,Ahmedabad,Beenext,Series C,7739338030,2026
+236,17/03/2025,RegionalVoice Hub,Media/Entertainment,Creator Economy,Regional Language,1000000,30000000,5,83,High,13.5,Medium,69,Low,65,69,16,High,User retention,Delhi,Lightspeed,Series C,11513646330,2025
+237,17/08/2025,NutriFit India,HealthTech,Fitness App,Urban,10000000,150000000,20,94,Medium,22.3,High,75,Low,89,90,37,Medium,Data privacy issues,Hyderabad,Lightspeed,Series B,7390412406,2025
+238,24/02/2024,PropSmart Plus,Real Estate,Smart Homes,Urban,50000000,300000000,40,77,Medium,14.3,Low,77,Medium,74,67,24,High,Regulatory complexity,Chennai,Tiger Global,Series B,7894709737,2024
+239,17/05/2024,MedEase Technologies,HealthTech,Teleconsultation,Urban,10000000,500000000,8,82,Medium,21.6,High,78,Low,98,86,37,Medium,Data privacy issues,Hyderabad,Eight Roads,Series D,45112753249,2024
+240,10/03/2025,GenomeScan India,HealthTech,Health Insurance,Senior Citizens,2000000,150000000,20,91,Medium,20.4,High,66,Low,94,87,36,Medium,Doctor onboarding,Chennai,Accel,Series C,23436795448,2025
+241,16/09/2025,SpaceHub Platform,Real Estate,Commercial RE,Urban,50000000,400000000,80,65,Medium,12.7,Low,80,Medium,80,65,24,High,Long cycles,Delhi,Nexus,Series B,5077776700,2025
+242,15/08/2025,SecureNet Hub,SaaS/Technology,HR Tech,Enterprise,500000,200000000,25,83,High,24.3,High,57,Low,68,76,32,Medium,Pricing pressure,Pune,Tiger Global,Series B,3626928796,2025
+243,28/06/2024,ZeroCarbon Platform,CleanTech,EV Manufacturing,Pan-India,2000000,500000000,8,79,Low,44.9,High,69,Low,95,97,33,High,Policy dependence,Ahmedabad,Blume,Series C,5392677661,2024
+244,12/02/2025,TalentOS Labs,SaaS/Technology,Cloud Infrastructure,Startups,2000000,500000000,25,89,High,26.7,High,71,Low,73,68,37,Medium,Churn,Delhi,Lightspeed,Series B,2761179420,2025
+245,29/10/2025,CreatorHub Network,Media/Entertainment,Esports,Tier 2,300000,150000000,60,80,High,18.0,Medium,62,Low,73,58,23,High,User retention,Delhi,Lightspeed,Seed,47687100,2025
+246,12/08/2024,GreenBuild Labs,CleanTech,Energy Storage,Pan-India,2000000,20000000,80,77,Low,31.4,High,71,Low,97,95,23,High,Long payback period,Bangalore,Lightspeed,Series D,16632940732,2024
+247,07/11/2025,DevFlow Pro,SaaS/Technology,Cybersecurity,SMB,5000000,200000000,8,94,High,23.3,High,56,Low,72,80,38,Medium,Long sales cycles,Pune,Tiger Global,Series A,1795203658,2025
+248,26/02/2026,RentPro Platform,Real Estate,REITs,Urban,200000000,1000000000,8,66,Medium,8.7,Low,73,Medium,76,55,25,High,Capital intensity,Mumbai,Sequoia,Series D,25892839815,2026
+249,04/05/2025,WorkStream AI,SaaS/Technology,ERP,Startups,2000000,10000000,25,93,High,36.7,High,70,Low,63,86,45,Medium,Churn,Delhi,Tiger Global,Series B,2686121102,2025
+250,25/10/2025,AgriLink Solutions,AgriTech,Dairy Tech,Rural,8000000,20000000,10,77,Low,36.3,Medium,71,Low,92,80,32,Medium,Last-mile connectivity,Nagpur,Beenext,Series A,958506186,2025
+251,20/10/2025,ConstructAI Pro,Real Estate,Affordable Housing,Corporate,2000000,50000000,20,66,Medium,11.4,Low,66,Medium,74,58,21,High,Regulatory complexity,Hyderabad,Helion,Private Equity,96016098232,2025
+252,27/04/2025,WealthWise India,FinTech,Stock Trading App,Delhi NCR,1000000,5000000,6,95,High,18.8,Medium,64,Low,73,79,37,Medium,High competition from incumbents,Bangalore,Nexus Venture,Seed,121726968,2025
+253,28/11/2024,TruckEasy Hub,Logistics,Rural Logistics,Tier 2,20000000,100000000,10,88,High,15.9,Medium,62,Medium,63,63,22,High,Asset intensity,Hyderabad,Tiger Global,Series B,8192419802,2024
+254,13/05/2025,MoneyMap India,FinTech,Payment Gateway,Urban,500000,50000000,12,90,High,29.8,Medium,61,Low,74,85,32,Medium,Trust deficit,Delhi,SAIF Partners,Series A,2355427536,2025
+255,22/12/2024,DroneKisan India,AgriTech,Dairy Tech,Tier 2,1000000,5000000,30,68,Low,31.9,Medium,77,Low,93,85,25,Medium,Last-mile connectivity,Pune,Accel,Seed,177440172,2024
+256,18/10/2024,CleanDrive AI,CleanTech,Energy Storage,Industrial,100000000,400000000,8,92,Low,34.4,High,65,Low,95,93,23,High,High capex,Ahmedabad,Blume,Series C,9331720188,2024
+257,25/01/2026,BazaarPro Platform,E-Commerce,Subscription Box,Tier 2 Cities,500000,1000000000,50,87,High,12.5,Low,68,Medium,59,56,27,High,Unit economics,Hyderabad,Accel,Series B,3845929172,2026
+258,09/12/2025,WealthWise India,FinTech,Insurance Tech,Urban,500000,200000000,12,88,High,20.9,Medium,65,Low,77,74,37,Medium,High competition from incumbents,Mumbai,Nexus Venture,Series D,47001280765,2025
+259,15/01/2024,AgriPay AI,AgriTech,Cold Chain,Tier 2,3000000,300000000,30,72,Low,36.3,Medium,78,Low,87,78,24,Medium,Farmer digital literacy,Hyderabad,Omnivore,Seed,339929335,2024
+260,26/03/2024,ResellerNet India,E-Commerce,Subscription Box,Tier 2 Cities,2000000,200000000,15,79,High,18.5,Low,57,Medium,55,65,28,High,Unit economics,Jaipur,Accel,Series C,23769612420,2024
+261,21/12/2025,AIPlatform India,SaaS/Technology,ERP,SMB,5000000,10000000,15,88,High,35.6,High,72,Low,78,74,30,Medium,Pricing pressure,Delhi,Tiger Global,Seed,402296487,2025
+262,11/02/2024,NewsFlash Network,Media/Entertainment,Audio Content,Regional Language,300000,30000000,8,78,High,15.1,Medium,58,Low,75,67,26,High,Monetisation difficulty,Noida,Lightspeed,Series A,1166581840,2024
+263,08/04/2025,WasteToWorth Plus,CleanTech,Clean Cooking,Urban,100000000,500000000,40,86,Low,50.0,High,67,Low,91,92,22,High,High capex,Delhi,SoftBank,Series B,4762539984,2025
+264,04/10/2025,PropSmart Labs,Real Estate,Rental Platform,Students,10000000,5000000000,20,78,Medium,12.4,Low,65,Medium,71,61,19,High,Capital intensity,Pune,Tiger Global,Series C,15071705328,2025
+265,13/04/2025,DataPulse Hub,SaaS/Technology,CRM,Enterprise,2000000,200000000,8,89,High,28.7,High,64,Low,61,72,39,Medium,Churn,Hyderabad,Lightspeed,Series D,16211135138,2025
+266,12/02/2024,TutorAI Hub,EdTech,Skill Courses,Rural,1000000,30000000,5,76,High,22.3,Low,46,Low,90,81,24,Medium,High CAC,Pune,Elevation Capital,Series A,757890088,2024
+267,05/01/2024,ElderCare Plus,HealthTech,Genomics,Tier 1,5000000,500000000,12,84,Medium,29.6,High,79,Low,90,75,36,Medium,Doctor onboarding,Mumbai,Accel,Series D,46045436810,2024
+268,26/02/2024,CarbonCut Platform,CleanTech,Waste Management,Government,5000000,500000000,12,75,Low,32.1,High,79,Low,98,95,22,High,Long payback period,Delhi,SoftBank,Series C,5431271361,2024
+269,13/01/2025,QuickRoute Network,Logistics,Last Mile Delivery,Urban,20000000,500000000,25,84,High,23.6,Medium,62,Medium,66,69,31,High,Asset intensity,Bangalore,Prosus,Series A,1577986090,2025
+270,01/05/2025,FreshRoute Network,AgriTech,Agri Marketplace,Agri Cooperatives,8000000,24000000,18,85,Low,36.6,Medium,73,Low,87,95,25,Medium,Last-mile connectivity,Delhi,Lightspeed,Series A,1487139926,2025
+271,20/05/2025,FreshRoute Pro,AgriTech,Cold Chain,Rural,300000,20000000,10,74,Low,37.3,Medium,75,Low,86,87,24,Medium,Farmer digital literacy,Nagpur,Beenext,Series A,1194205310,2025
+272,05/10/2025,FarmerFirst Pro,AgriTech,Agri Marketplace,Pan-India,300000,80000000,6,83,Low,22.9,Medium,70,Low,92,82,23,Medium,Farmer digital literacy,Pune,Omnivore,Series B,2215956650,2025
+273,22/02/2026,HealthFirst Hub,HealthTech,Fitness App,Corporate Wellness,5000000,150000000,12,88,Medium,28.2,High,76,Low,86,89,34,Medium,Doctor onboarding,Bangalore,Sequoia Capital,Series A,1462609296,2026
+274,14/08/2024,LiveEasy Plus,Real Estate,REITs,Students,2000000,5000000000,40,67,Medium,9.2,Low,69,Medium,62,70,23,High,Long cycles,Bangalore,Nexus,Series D,22008605770,2024
+275,05/12/2025,CareAI Labs,HealthTech,Fitness App,Urban,2000000,10000000,20,83,Medium,20.9,High,80,Low,97,85,25,Medium,Regulatory approvals,Bangalore,Accel,Series D,11319784547,2025
+276,08/09/2025,EduPath Hub,EdTech,School LMS,Urban,1000000,2000000,3,74,High,26.0,Low,53,Low,91,81,24,Medium,Content quality issues,Mumbai,Owl Ventures,Seed,111168393,2025
+277,05/01/2024,SpaceHub Platform,Real Estate,Affordable Housing,Corporate,50000000,200000000,40,68,Medium,9.8,Low,76,Medium,74,68,21,High,Regulatory complexity,Hyderabad,Tiger Global,Series A,1722861011,2024
+278,09/01/2026,PropSmart Technologies,Real Estate,Smart Homes,Corporate,2000000,5000000000,20,79,Medium,14.0,Low,74,Medium,76,62,26,High,Long cycles,Hyderabad,Nexus,Series B,5787981942,2026
+279,24/03/2025,PacknGo Technologies,Logistics,Truck Aggregation,Tier 2,50000000,2000000000,100,73,High,22.2,Medium,65,Medium,62,66,23,High,Asset intensity,Kolkata,Tiger Global,Series C,10417810199,2025
+280,30/12/2024,ColdChain Hub,Logistics,B2B Freight,E-Commerce,20000000,100000000,50,73,High,15.3,Medium,75,Medium,75,62,30,High,Thin margins,Delhi,Accel,Series E,32757261589,2024
+281,05/06/2024,ZeroCarbon Hub,CleanTech,Waste Management,Urban,2000000,2000000000,40,81,Low,37.3,High,80,Low,95,93,28,High,Long payback period,Mumbai,Accel,Series D,49365552620,2024
+282,29/03/2025,ColdChain India,Logistics,Last Mile Delivery,Tier 2,20000000,100000000,50,83,High,15.5,Medium,72,Medium,75,58,29,High,Fuel cost volatility,Hyderabad,Prosus,Series D,10848624190,2025
+283,23/09/2025,LogiLink Network,Logistics,Cross Border Shipping,Urban,1000000,20000000,100,71,High,15.4,Medium,71,Medium,71,73,20,High,Fuel cost volatility,Chennai,Warburg Pincus,Seed,341645844,2025
+284,29/08/2025,KisanPro Technologies,AgriTech,Crop Insurance,Rural,3000000,20000000,4,82,Low,27.2,Medium,74,Low,95,91,27,Medium,Last-mile connectivity,Pune,Beenext,Seed,370750688,2025
+285,12/04/2024,IoTHub Platform,SaaS/Technology,API Platform,SMB,5000000,50000000,50,86,High,28.5,High,68,Low,66,83,30,Medium,Pricing pressure,Pune,Accel,Series B,6175592950,2024
+286,29/08/2025,TutorAI Labs,EdTech,Exam Prep,K-12,3000000,100000000,5,81,High,25.3,Low,65,Low,89,86,34,Medium,High CAC,Chennai,Elevation Capital,Series B,4485969782,2025
+287,10/07/2024,BuildTech Pro,Real Estate,Online Broker,Corporate,50000000,5000000000,80,66,Medium,13.2,Low,76,Medium,76,59,21,High,Capital intensity,Hyderabad,Nexus,Series D,26839085195,2024
+288,04/12/2025,GreenChain Platform,AgriTech,Drone Services,Tier 2,300000,20000000,6,65,Low,25.9,Medium,69,Low,92,93,26,Medium,Seasonality,Nagpur,Beenext,Seed,183233986,2025
+289,09/01/2026,QuickPay India,FinTech,Payment Gateway,Pan-India,2000000,50000000,4,88,High,33.2,Medium,57,Low,82,69,31,Medium,High competition from incumbents,Hyderabad,Nexus Venture,Series D,31896740315,2026
+290,06/09/2025,QuickCart Network,E-Commerce,Niche Retail,Bharat,20000000,50000000,30,78,High,13.4,Low,60,Medium,61,58,25,High,Unit economics,Chennai,Nexus,Seed,385220988,2025
+291,14/03/2026,CropAI Network,AgriTech,Soil Analytics,Pan-India,3000000,5000000,30,66,Low,35.5,Medium,61,Low,96,85,22,Medium,Last-mile connectivity,Pune,Beenext,Series B,6628087883,2026
+292,31/10/2024,SocialShop Solutions,E-Commerce,Reseller Platform,Rural,20000000,140000000,5,87,High,16.7,Low,68,Medium,65,72,24,High,Logistics costs,Jaipur,Accel,Series B,6386771881,2024
+293,19/02/2026,PayFlow Solutions,FinTech,Wealth Management,Delhi NCR,1000000,5000000,12,81,High,28.7,Medium,65,Low,88,67,29,Medium,High competition from incumbents,Pune,Tiger Global,Series A,1312390876,2026
+294,01/12/2024,CreatorHub Platform,Media/Entertainment,Short Video,Youth,5000000,30000000,30,80,High,24.3,Medium,62,Low,55,52,23,High,Monetisation difficulty,Noida,Kalaari,Series A,973001202,2024
+295,06/09/2025,DeliverPro Solutions,Logistics,Truck Aggregation,Urban,5000000,20000000,10,86,High,18.8,Medium,74,Medium,75,58,23,High,Fuel cost volatility,Mumbai,Tiger Global,Series B,5951966756,2025
+296,04/03/2025,DirectBuy AI,E-Commerce,Quick Commerce,Pan-India,5000000,200000000,10,86,High,21.1,Low,66,Medium,73,71,28,High,Unit economics,Bangalore,Tiger Global,Series C,19570358425,2025
+297,19/09/2024,ReelUp Technologies,Media/Entertainment,Podcast,Pan-India,300000,150000000,8,83,High,23.8,Medium,56,Low,55,60,23,High,Monetisation difficulty,Delhi,Sequoia,Series C,17186242878,2024
+298,24/04/2025,EcoGrid Technologies,CleanTech,Carbon Credits,Government,100000000,700000000,8,85,Low,31.1,High,69,Low,95,98,28,High,Long payback period,Hyderabad,Accel,Series B,7463806066,2025
+299,23/07/2025,NutriFit Pro,HealthTech,Teleconsultation,Urban,2000000,10000000,8,85,Medium,20.4,High,73,Low,87,86,31,Medium,Regulatory approvals,Bangalore,Bessemer,Series C,14435391072,2025
+300,27/07/2024,SmartClass Solutions,EdTech,Skill Courses,College Students,1000000,10000000,25,70,High,21.8,Low,63,Low,85,83,36,Medium,Post-COVID demand drop,Hyderabad,Sequoia Capital,Seed,271957914,2024
+301,30/01/2024,HealthFirst Pro,HealthTech,Hospital SaaS,Senior Citizens,5000000,10000000,12,81,Medium,27.9,High,79,Low,90,90,27,Medium,Regulatory approvals,Pune,Accel,Series B,2462617571,2024
+302,02/09/2024,FitLife Technologies,HealthTech,Teleconsultation,Urban,2000000,500000000,20,89,Medium,27.8,High,69,Low,86,81,32,Medium,Doctor onboarding,Pune,Lightspeed,Series D,24822619480,2024
+303,02/05/2025,DeliverPro Hub,Logistics,Drone Delivery,E-Commerce,1000000,2000000000,25,75,High,18.8,Medium,73,Medium,62,56,28,High,Asset intensity,Hyderabad,Prosus,Series A,1805291376,2025
+304,22/03/2024,ColdChain Labs,Logistics,Warehousing,Tier 2,20000000,100000000,100,83,High,17.3,Medium,61,Medium,77,57,34,High,Thin margins,Delhi,GIC,Series D,40640576164,2024
+305,24/03/2024,PodcastPro India,Media/Entertainment,Short Video,Youth,1000000,30000000,30,69,High,13.1,Medium,64,Low,65,70,26,High,User retention,Chennai,Sequoia,Series B,4035481270,2024
+306,20/03/2025,CareerFirst India,EdTech,Online Tutoring,Rural,200000,2000000,5,90,High,21.2,Low,57,Low,95,79,31,Medium,Content quality issues,Chennai,WestBridge,Series C,4486019882,2025
+307,02/08/2024,QuickPay Solutions,FinTech,Stock Trading App,Bangalore,1000000,5000000,8,89,High,20.5,Medium,68,Low,70,68,30,Medium,High competition from incumbents,Delhi,SAIF Partners,Series C,9613388484,2024
+308,15/04/2024,CreditBridge AI,FinTech,Crypto Exchange,Bangalore,2000000,5000000,12,87,High,26.3,Medium,73,Low,89,80,31,Medium,Trust deficit,Pune,Sequoia Capital,Seed,337342505,2024
+309,29/09/2025,AIPlatform Network,SaaS/Technology,Cloud Infrastructure,SMB,500000,50000000,15,93,High,25.5,High,66,Low,74,75,44,Medium,Long sales cycles,Delhi,Matrix,Series B,6044960706,2025
+310,28/09/2025,CareAI Labs,HealthTech,Online Pharmacy,Senior Citizens,2000000,50000000,8,85,Medium,27.3,High,68,Low,97,85,32,Medium,Doctor onboarding,Mumbai,Sequoia Capital,Series D,38695810230,2025
+311,06/03/2024,PaisaPlus AI,FinTech,Neo Banking,Mumbai,1000000,5000000,20,82,High,26.3,Medium,65,Low,81,66,40,Medium,Trust deficit,Mumbai,Accel,Series D,28842805888,2024
+312,11/03/2026,ReelUp Plus,Media/Entertainment,OTT Platform,Regional Language,300000,30000000,5,74,High,23.8,Medium,60,Low,64,66,27,High,Monetisation difficulty,Noida,Sequoia,Seed,149826221,2026
+313,08/09/2024,GoldLink Pro,FinTech,Digital Lending,Tier 1 Cities,1000000,5000000,8,86,High,30.2,Medium,68,Low,81,85,38,Medium,High competition from incumbents,Pune,Tiger Global,Series C,24751832606,2024
+314,31/01/2024,WasteToWorth Solutions,CleanTech,EV Charging,Government,2000000,20000000,20,85,Low,40.0,High,70,Low,94,85,32,High,High capex,Mumbai,Blume,Seed,405828036,2024
+315,18/12/2024,SolarEase Labs,CleanTech,Clean Cooking,Government,5000000,2000000000,40,81,Low,52.2,High,79,Low,93,97,32,High,High capex,Bangalore,Accel,Seed,276045155,2024
+316,15/11/2024,HomeDeal Network,Real Estate,PropTech SaaS,Urban,2000000,1000000000,12,74,Medium,15.3,Low,68,Medium,63,66,22,High,Regulatory complexity,Delhi,Helion,Series A,2241363279,2024
+317,02/02/2026,LiveBuy Hub,E-Commerce,Live Commerce,Bharat,2000000,200000000,15,81,High,18.7,Low,59,Medium,67,66,29,High,Logistics costs,Delhi,Tiger Global,Series D,14919794696,2026
+318,04/04/2024,SkillUp AI,EdTech,Skill Courses,Rural,500000,100000000,3,81,High,23.8,Low,57,Low,92,78,31,Medium,High CAC,Hyderabad,Elevation Capital,Series C,15511867311,2024
+319,25/06/2025,SpaceHub Platform,Real Estate,Commercial RE,Corporate,2000000,200000000,80,76,Medium,17.2,Low,68,Medium,75,58,19,High,Long cycles,Delhi,Helion,Series A,747389546,2025
+320,25/05/2024,GenomeScan AI,HealthTech,Teleconsultation,Tier 1,5000000,50000000,8,95,Medium,20.0,High,76,Low,86,73,31,Medium,Doctor onboarding,Delhi,Eight Roads,Series D,45757773966,2024
+321,13/10/2025,CommercialHub Pro,Real Estate,Commercial RE,Tier 1,50000000,450000000,40,72,Medium,17.0,Low,75,Medium,79,56,28,High,Long cycles,Chennai,Nexus,Series A,486995964,2025
+322,21/10/2025,CareerFirst Technologies,EdTech,School LMS,K-12,200000,10000000,15,86,High,26.7,Low,48,Low,85,70,26,Medium,Post-COVID demand drop,Chennai,Sequoia Capital,Series C,13181042132,2025
+323,23/03/2025,EcoGrid AI,CleanTech,EV Charging,Government,20000000,2000000000,20,77,Low,32.9,High,68,Low,96,87,29,High,High capex,Pune,Blume,Seed,149778292,2025
+324,01/11/2024,FundRight Technologies,FinTech,Digital Lending,Urban,5000000,50000000,8,87,High,34.0,Medium,58,Low,71,71,31,Medium,Trust deficit,Mumbai,Nexus Venture,Series C,6754475320,2024
+325,08/03/2024,ColdChain India,Logistics,B2B Freight,Tier 2,1000000,500000000,100,88,High,21.4,Medium,67,Medium,77,75,32,High,Thin margins,Kolkata,Warburg Pincus,Series C,8735356424,2024
+326,04/07/2025,BazaarPro Plus,E-Commerce,Reseller Platform,Pan-India,500000,1000000000,50,81,High,18.5,Low,60,Medium,55,51,25,High,Unit economics,Delhi,DST Global,Series E,62454741078,2025
+327,30/07/2025,SpaceHub Labs,Real Estate,Co-living,Corporate,2000000,200000000,80,73,Medium,16.8,Low,71,Medium,78,65,28,High,Long cycles,Chennai,Nexus,Series D,17791999724,2025
+328,23/10/2025,MedEase Hub,HealthTech,Hospital SaaS,Pan-India,500000,50000000,20,95,Medium,29.1,High,67,Low,97,74,33,Medium,Regulatory approvals,Pune,Bessemer,Seed,289004689,2025
+329,16/07/2024,WasteToWorth India,CleanTech,Green Hydrogen,Urban,20000000,500000000,12,77,Low,50.4,High,74,Low,91,88,35,High,Policy dependence,Pune,Lightspeed,Series C,6661795414,2024
+330,17/07/2024,SpaceFinder Hub,Real Estate,REITs,Students,10000000,50000000,80,69,Medium,15.5,Low,69,Medium,70,62,26,High,Regulatory complexity,Bangalore,Nexus,Series A,1126132937,2024
+331,26/11/2024,FundRight AI,FinTech,Insurance Tech,Pan-India,5000000,200000000,8,91,High,30.9,Medium,62,Low,71,73,42,Medium,Regulatory challenges,Delhi,Nexus Venture,Series B,5421108409,2024
+332,17/03/2024,WarehouseX Platform,Logistics,Warehousing,Urban,20000000,80000000,10,85,High,18.8,Medium,60,Medium,78,75,34,High,Asset intensity,Mumbai,Warburg Pincus,Seed,373466024,2024
+333,25/03/2025,ReelUp Pro,Media/Entertainment,Live Streaming,Pan-India,300000,5000000,5,80,High,16.1,Medium,57,Low,59,53,27,High,User retention,Delhi,Tiger Global,Series C,16710411615,2025
+334,09/02/2026,RegionalVoice Platform,Media/Entertainment,Live Streaming,Regional Language,300000,500000000,30,82,High,22.3,Medium,58,Low,65,52,22,High,Monetisation difficulty,Chennai,Matrix,Series A,451930056,2026
+335,19/09/2024,SmartHome AI,Real Estate,Commercial RE,Students,200000000,1200000000,12,66,Medium,8.6,Low,74,Medium,80,68,26,High,Regulatory complexity,Delhi,Nexus,Private Equity,9799194354,2024
+336,04/11/2025,AudioWorld India,Media/Entertainment,Gaming,Regional Language,300000,500000000,15,74,High,24.7,Medium,61,Low,57,62,18,High,Monetisation difficulty,Noida,Sequoia,Series C,11698615029,2025
+337,10/04/2025,LearnLocal India,EdTech,Ed Games,Urban,200000,10000000,5,84,High,23.1,Low,52,Low,95,80,34,Medium,Content quality issues,Mumbai,Elevation Capital,Series C,4396724982,2025
+338,24/10/2024,MindCare Platform,HealthTech,Health Insurance,Tier 1,500000,10000000,8,86,Medium,23.4,High,72,Low,89,77,30,Medium,Data privacy issues,Mumbai,Sequoia Capital,Series A,1150977944,2024
+339,12/12/2024,EduPath Labs,EdTech,Ed Games,Urban,1000000,30000000,5,86,High,27.7,Low,64,Low,93,72,23,Medium,Post-COVID demand drop,Mumbai,Sequoia Capital,Series A,2362937275,2024
+340,12/07/2024,PodcastPro Labs,Media/Entertainment,Audio Content,Tier 2,1000000,5000000,15,72,High,23.1,Medium,70,Low,61,54,27,High,User retention,Mumbai,Kalaari,Series A,2224858252,2024
+341,22/06/2025,GreenBuild Pro,CleanTech,EV Manufacturing,Tier 1,20000000,2000000000,80,76,Low,35.2,High,71,Low,95,98,27,High,Policy dependence,Pune,Blume,Series C,9880110112,2025
+342,31/03/2025,FreshRoute Network,AgriTech,Cold Chain,Agri Cooperatives,300000,300000000,30,84,Low,27.4,Medium,74,Low,92,91,24,Medium,Seasonality,Pune,Beenext,Series B,6620082571,2025
+343,28/05/2025,FreshRoute Plus,AgriTech,Agri Marketplace,Pan-India,1000000,5000000,4,67,Low,27.8,Medium,77,Low,88,88,21,Medium,Last-mile connectivity,Pune,Sequoia,Series B,3215079240,2025
+344,15/10/2024,SoilSmart AI,AgriTech,Drone Services,Agri Cooperatives,300000,300000000,30,69,Low,35.8,Medium,67,Low,88,84,25,Medium,Farmer digital literacy,Ahmedabad,Lightspeed,Series C,23133103526,2024
+345,25/07/2025,CloudOps Network,SaaS/Technology,CRM,Startups,2000000,200000000,5,89,High,36.6,High,66,Low,70,75,41,Medium,Churn,Delhi,Lightspeed,Series D,43556586378,2025
+346,06/10/2025,StoryTell Hub,Media/Entertainment,Live Streaming,Youth,20000000,30000000,30,70,High,18.9,Medium,61,Low,70,55,20,High,Monetisation difficulty,Noida,Sequoia,Series B,7866525898,2025
+347,12/03/2024,BazaarPro Labs,E-Commerce,B2B Marketplace,Tier 2 Cities,5000000,10000000,30,73,High,15.7,Low,55,Medium,60,60,24,High,Unit economics,Bangalore,Accel,Series A,2499633706,2024
+348,18/03/2025,AgriPay Pro,AgriTech,Precision Farming,Agri Cooperatives,3000000,20000000,30,79,Low,26.4,Medium,60,Low,87,92,19,Medium,Seasonality,Delhi,Lightspeed,Series B,8126823622,2025
+349,18/12/2025,GreenBuild Labs,CleanTech,Smart Grid,Government,5000000,2000000000,12,80,Low,52.5,High,78,Low,95,91,25,High,Long payback period,Bangalore,Nuveen,Series C,23956924630,2025
+350,20/05/2025,BazaarPro Plus,E-Commerce,Social Commerce,Rural,500000,10000000,50,82,High,16.1,Low,60,Medium,63,56,26,High,Logistics costs,Bangalore,Elevation Capital,Seed,365290038,2025
+351,27/12/2025,BrainBox Network,EdTech,Ed Games,Rural,3000000,12000000,25,77,High,24.3,Low,59,Low,84,85,35,Medium,High CAC,Mumbai,Sequoia Capital,Seed,112155614,2025
+352,24/11/2025,LendEasy Solutions,FinTech,Wealth Management,Tier 1 Cities,1000000,20000000,4,92,High,21.7,Medium,56,Low,90,81,38,Medium,Trust deficit,Delhi,Sequoia Capital,Series B,1722289704,2025
+353,23/07/2024,QuickCart India,E-Commerce,Subscription Box,Pan-India,500000,200000000,10,74,High,14.2,Low,58,Medium,60,55,18,High,Unit economics,Bangalore,DST Global,Series B,3794293356,2024
+354,06/08/2024,QuickCart Network,E-Commerce,Niche Retail,Tier 2 Cities,500000,1000000000,15,72,High,15.9,Low,69,Medium,62,52,28,High,Unit economics,Delhi,DST Global,Seed,88912052,2024
+355,05/08/2025,CoWorkX Labs,Real Estate,Co-living,Students,50000000,5000000000,12,75,Medium,9.8,Low,75,Medium,77,57,23,High,Capital intensity,Pune,Helion,Series D,34685463712,2025
+356,16/02/2026,ReelUp Labs,Media/Entertainment,Gaming,Youth,1000000,5000000,5,72,High,16.9,Medium,64,Low,61,56,21,High,Content cost,Bangalore,Tiger Global,Series C,18600928852,2026
+357,07/02/2026,FarmTech Platform,AgriTech,Agri Lending,Pan-India,1000000,20000000,30,66,Low,36.5,Medium,67,Low,97,85,27,Medium,Seasonality,Pune,Lightspeed,Series A,434430293,2026
+358,28/07/2024,DocConnect Technologies,HealthTech,Fitness App,Corporate Wellness,2000000,50000000,35,82,Medium,25.1,High,79,Low,89,77,36,Medium,Regulatory approvals,Hyderabad,Sequoia Capital,Series A,1217000309,2024
+359,03/01/2025,GrowthSchool AI,EdTech,Skill Courses,Rural,3000000,100000000,25,89,High,24.6,Low,49,Low,95,70,34,Medium,High CAC,Bangalore,Elevation Capital,Series B,3639093910,2025
+360,29/07/2025,ReturnEase Pro,Logistics,Truck Aggregation,Urban,5000000,2000000000,15,74,High,24.1,Medium,60,Medium,60,71,31,High,Fuel cost volatility,Chennai,Warburg Pincus,Series C,12782953210,2025
+361,29/01/2025,KnowledgeHub Solutions,EdTech,School LMS,Rural,1000000,30000000,25,85,High,23.3,Low,56,Low,81,82,36,Medium,High CAC,Mumbai,Sequoia Capital,Series C,19808375926,2025
+362,28/11/2025,SecureNet Labs,SaaS/Technology,DevTools,Startups,2000000,10000000,5,94,High,23.7,High,67,Low,72,86,30,Medium,Pricing pressure,Mumbai,Accel,Series A,2355884865,2025
+363,09/02/2026,FleetPro Technologies,Logistics,Truck Aggregation,B2B,20000000,100000000,25,76,High,24.2,Medium,72,Medium,69,55,22,High,Asset intensity,Delhi,Accel,Seed,334425182,2026
+364,21/07/2024,MindCare Solutions,HealthTech,Genomics,Pan-India,10000000,50000000,8,86,Medium,20.7,High,70,Low,97,78,29,Medium,Doctor onboarding,Pune,Bessemer,Series D,21490445100,2024
+365,16/12/2024,SkillUp Hub,EdTech,School LMS,Rural,3000000,9000000,3,78,High,24.8,Low,45,Low,81,73,25,Medium,Content quality issues,Hyderabad,Accel,Series B,6482964132,2024
+366,12/11/2025,WindTech AI,CleanTech,Waste Management,Urban,20000000,500000000,8,75,Low,41.4,High,77,Low,90,85,23,High,Long payback period,Ahmedabad,Accel,Series A,2149994656,2025
+367,18/01/2024,EcoStore Network,CleanTech,EV Charging,Industrial,100000000,1000000000,40,77,Low,38.7,High,80,Low,98,98,23,High,Long payback period,Pune,SoftBank,Series D,33987214919,2024
+368,30/03/2024,DataPulse Plus,SaaS/Technology,Cloud Infrastructure,Pan-India,10000000,100000000,50,85,High,26.4,High,60,Low,62,71,41,Medium,Pricing pressure,Hyderabad,Sequoia,Series B,4139793895,2024
+369,01/07/2025,NutriFit Pro,HealthTech,Online Pharmacy,Tier 1,2000000,10000000,12,92,Medium,30.9,High,77,Low,95,89,38,Medium,Doctor onboarding,Mumbai,Sequoia Capital,Series B,2918284002,2025
+370,11/01/2025,AudioWorld Network,Media/Entertainment,News App,Regional Language,300000,150000000,5,85,High,14.5,Medium,67,Low,68,62,27,High,User retention,Chennai,Lightspeed,Series A,443244302,2025
+371,26/05/2025,TrendHub Pro,E-Commerce,Quick Commerce,Bharat,5000000,50000000,5,82,High,15.1,Low,58,Medium,63,72,27,High,Unit economics,Hyderabad,Accel,Series B,3381361391,2025
+372,14/05/2025,ElderCare AI,HealthTech,Diagnostic AI,Urban,500000,500000000,12,93,Medium,28.1,High,76,Low,97,84,31,Medium,Regulatory approvals,Pune,Eight Roads,Series B,7811647194,2025
+373,27/12/2025,LendEasy Pro,FinTech,BNPL,Mumbai,1000000,200000000,12,84,High,33.3,Medium,61,Low,76,71,39,Medium,Trust deficit,Gurugram,Sequoia Capital,Series D,38808662066,2025
+374,02/07/2024,CloudOps Technologies,SaaS/Technology,AI/ML Platform,Enterprise,10000000,50000000,25,85,High,22.6,High,62,Low,72,83,37,Medium,Pricing pressure,Hyderabad,Matrix,Series C,10343791457,2024
+375,29/04/2024,LearnX Technologies,EdTech,Ed Games,College Students,500000,2000000,25,88,High,27.8,Low,60,Low,88,73,34,Medium,Content quality issues,Hyderabad,Sequoia Capital,Series C,6403912176,2024
+376,07/02/2025,SafeVault Plus,FinTech,P2P Lending,Bangalore,500000,5000000,6,78,High,21.1,Medium,74,Low,75,65,36,Medium,Regulatory challenges,Bangalore,Accel,Seed,131978931,2025
+377,01/11/2024,SmartHome Plus,Real Estate,PropTech SaaS,Corporate,2000000,200000000,20,66,Medium,17.5,Low,74,Medium,79,69,20,High,Regulatory complexity,Chennai,Elevation,Series C,15619556092,2024
+378,07/02/2024,SocialShop Solutions,E-Commerce,Used Goods Platform,Tier 2 Cities,2000000,50000000,50,83,High,14.8,Low,68,Medium,57,67,22,High,Unit economics,Jaipur,Elevation Capital,Series A,650760840,2024
+379,06/10/2025,QuizGenius Labs,EdTech,School LMS,College Students,1000000,10000000,15,74,High,19.1,Low,58,Low,92,70,31,Medium,Post-COVID demand drop,Delhi,Accel,Seed,414017549,2025
+380,29/05/2024,AgriLink Labs,AgriTech,Farm Management SaaS,Rural,8000000,20000000,18,68,Low,34.5,Medium,63,Low,87,94,29,Medium,Seasonality,Hyderabad,Lightspeed,Seed,412259456,2024
+381,23/06/2024,PaisaPlus AI,FinTech,BNPL,Tier 1 Cities,5000000,200000000,20,79,High,22.4,Medium,71,Low,74,69,30,Medium,Regulatory challenges,Hyderabad,Nexus Venture,Series B,5818345548,2024
+382,25/03/2025,PharmaGo Pro,HealthTech,Genomics,Tier 1,5000000,500000000,35,87,Medium,23.7,High,67,Low,89,85,37,Medium,Doctor onboarding,Pune,Accel,Seed,95469642,2025
+383,19/05/2025,PropSmart AI,Real Estate,Affordable Housing,Tier 1,200000000,5000000000,80,82,Medium,15.0,Low,77,Medium,62,61,29,High,Capital intensity,Chennai,Elevation,Private Equity,38570356156,2025
+384,18/08/2024,CoWorkX Technologies,Real Estate,Smart Homes,Tier 1,50000000,450000000,40,77,Medium,9.7,Low,68,Medium,72,62,26,High,Capital intensity,Delhi,Nexus,Series D,36644833213,2024
+385,06/02/2024,CommercialHub Hub,Real Estate,Commercial RE,Urban,50000000,500000000,20,74,Medium,11.5,Low,65,Medium,73,60,24,High,Long cycles,Mumbai,Sequoia,Series D,48629052560,2024
+386,08/06/2024,TaxPilot Labs,FinTech,Stock Trading App,Bangalore,5000000,50000000,8,86,High,25.3,Medium,60,Low,87,73,29,Medium,Regulatory challenges,Mumbai,SAIF Partners,Series A,1633367381,2024
+387,11/02/2024,CropAI AI,AgriTech,Drone Services,Pan-India,300000,20000000,6,80,Low,37.4,Medium,68,Low,86,91,25,Medium,Last-mile connectivity,Nagpur,Beenext,Series A,1537870602,2024
+388,22/01/2024,BrainBox Solutions,EdTech,Coding Bootcamp,K-12,200000,10000000,3,80,High,20.6,Low,64,Low,80,83,29,Medium,High CAC,Hyderabad,WestBridge,Seed,342208802,2024
+389,18/12/2025,AgriLink AI,AgriTech,Cold Chain,Farmer Communities,300000,20000000,6,83,Low,32.1,Medium,64,Low,88,81,20,Medium,Seasonality,Pune,Omnivore,Series A,466983436,2025
+390,17/12/2025,FarmerFirst Platform,AgriTech,Cold Chain,Pan-India,8000000,300000000,4,81,Low,28.8,Medium,61,Low,89,81,22,Medium,Seasonality,Pune,Sequoia,Series C,5091503682,2025
+391,13/10/2024,NoCoder Technologies,SaaS/Technology,No-Code Builder,Pan-India,5000000,500000000,15,87,High,27.5,High,58,Low,60,85,32,Medium,Churn,Delhi,Tiger Global,Series B,4340135528,2024
+392,06/10/2025,ElderCare Hub,HealthTech,Online Pharmacy,Pan-India,2000000,50000000,20,83,Medium,20.9,High,75,Low,89,87,37,Medium,Regulatory approvals,Pune,Eight Roads,Series A,954622935,2025
+393,22/03/2025,LearnX Pro,EdTech,Corporate Training,K-12,200000,10000000,25,78,High,24.1,Low,49,Low,89,71,31,Medium,Post-COVID demand drop,Chennai,Sequoia Capital,Series C,5855752629,2025
+394,14/02/2025,ReturnEase Labs,Logistics,Cold Chain,Tier 2,1000000,100000000,100,76,High,20.5,Medium,60,Medium,76,69,28,High,Fuel cost volatility,Bangalore,GIC,Series B,4679292071,2025
+395,25/10/2024,ShopSmart Solutions,E-Commerce,Used Goods Platform,Tier 2 Cities,5000000,10000000,10,78,High,17.3,Low,55,Medium,75,61,28,High,Flipkart/Amazon dominance,Delhi,Nexus,Seed,226695152,2024
+396,30/12/2024,CashSmart Labs,FinTech,BNPL,Tier 1 Cities,500000,5000000,12,95,High,22.4,Medium,75,Low,90,84,36,Medium,High competition from incumbents,Mumbai,SAIF Partners,Series B,6102029700,2024
+397,05/04/2024,TalentOS Solutions,SaaS/Technology,Cloud Infrastructure,Pan-India,2000000,50000000,50,89,High,39.0,High,60,Low,80,77,28,Medium,Churn,Hyderabad,Accel,Series C,13732371924,2024
+398,20/05/2024,PropSmart Hub,Real Estate,Co-living,Corporate,200000000,800000000,8,66,Medium,9.3,Low,67,Medium,70,59,28,High,Regulatory complexity,Mumbai,Sequoia,Series A,2399646046,2024
+399,05/12/2024,DairyTech Solutions,AgriTech,Cold Chain,Rural,3000000,5000000,4,66,Low,23.6,Medium,69,Low,86,94,32,Medium,Seasonality,Bangalore,Accel,Series A,1614245881,2024
+400,04/12/2025,FleetPro Technologies,Logistics,Returns Management,Tier 2,1000000,100000000,10,79,High,17.9,Medium,70,Medium,63,66,34,High,Thin margins,Kolkata,Accel,Series A,1903797996,2025
+401,01/10/2025,HarvestHub Network,AgriTech,Agri Marketplace,Pan-India,8000000,80000000,10,67,Low,34.6,Medium,64,Low,97,82,23,Medium,Farmer digital literacy,Hyderabad,Beenext,Series C,20463689020,2025
+402,24/02/2026,FitLife Network,HealthTech,Wearables,Senior Citizens,10000000,500000000,20,90,Medium,21.7,High,72,Low,91,85,33,Medium,Doctor onboarding,Chennai,Eight Roads,Series C,6049237660,2026
+403,20/12/2025,QuickCart Platform,E-Commerce,Niche Retail,Pan-India,2000000,10000000,15,87,High,21.6,Low,58,Medium,56,61,23,High,Logistics costs,Hyderabad,Nexus,Series A,1007942862,2025
+404,21/01/2025,ElderCare India,HealthTech,Home Healthcare,Tier 1,500000,10000000,35,82,Medium,25.7,High,70,Low,85,76,30,Medium,Regulatory approvals,Mumbai,Accel,Seed,50489945,2025
+405,26/04/2025,DroneKisan Network,AgriTech,Soil Analytics,Rural,3000000,5000000,6,66,Low,36.1,Medium,61,Low,94,83,26,Medium,Farmer digital literacy,Hyderabad,Omnivore,Series C,24777164668,2025
+406,09/06/2024,DeliverPro Technologies,Logistics,Rural Logistics,E-Commerce,5000000,100000000,50,71,High,16.4,Medium,65,Medium,77,74,33,High,Thin margins,Chennai,Prosus,Series B,3517216308,2024
+407,16/04/2024,LearnX Network,EdTech,Assessment Tool,Tier 2 Cities,200000,10000000,8,75,High,22.0,Low,47,Low,86,70,34,Medium,High CAC,Pune,Sequoia Capital,Series A,1171653546,2024
+408,05/04/2024,ZeroCarbon India,CleanTech,Carbon Credits,Industrial,100000000,800000000,40,86,Low,54.3,High,68,Low,93,91,23,High,Long payback period,Bangalore,Blume,Series D,15577421240,2024
+409,05/01/2026,EduPath Platform,EdTech,Skill Courses,College Students,500000,30000000,15,74,High,19.4,Low,56,Low,93,71,36,Medium,Content quality issues,Mumbai,Elevation Capital,Series A,2005840006,2026
+410,11/03/2026,SpaceHub Pro,Real Estate,Co-living,Corporate,50000000,200000000,20,70,Medium,8.7,Low,76,Medium,73,57,19,High,Capital intensity,Delhi,Elevation,Series D,33845593324,2026
+411,22/02/2025,ReturnEase Solutions,Logistics,Returns Management,Urban,20000000,500000000,10,83,High,19.6,Medium,68,Medium,61,74,30,High,Thin margins,Hyderabad,Tiger Global,Series D,15442163932,2025
+412,01/02/2025,StreetShop Technologies,E-Commerce,Niche Retail,Urban,20000000,1000000000,5,74,High,13.8,Low,58,Medium,67,63,21,High,Unit economics,Bangalore,Nexus,Series B,4053040818,2025
+413,12/07/2025,Rupify Pro,FinTech,BNPL,Delhi NCR,1000000,50000000,20,76,High,34.8,Medium,67,Low,71,76,40,Medium,Regulatory challenges,Mumbai,SAIF Partners,Seed,189889855,2025
+414,07/10/2024,GrowthSchool Technologies,EdTech,Language Learning,College Students,3000000,100000000,25,76,High,23.7,Low,53,Low,85,71,23,Medium,High CAC,Delhi,WestBridge,Series A,1591735283,2024
+415,10/12/2025,CarbonCut AI,CleanTech,EV Charging,Government,5000000,20000000,80,79,Low,38.1,High,75,Low,88,87,34,High,High capex,Pune,SoftBank,Seed,326403003,2025
+416,07/02/2024,EduPath Platform,EdTech,Corporate Training,College Students,500000,100000000,5,81,High,17.7,Low,51,Low,80,81,35,Medium,High CAC,Delhi,Accel,Series B,7263847280,2024
+417,12/03/2025,HomeDeal Network,Real Estate,Co-living,Tier 1,200000000,5000000000,20,70,Medium,13.5,Low,70,Medium,79,68,24,High,Long cycles,Chennai,Elevation,Series C,18735919796,2025
+418,11/07/2025,ReelUp Pro,Media/Entertainment,Podcast,Regional Language,300000,150000000,30,74,High,14.9,Medium,69,Low,72,64,16,High,Content cost,Mumbai,Sequoia,Series B,6105897838,2025
+419,10/11/2024,DroneKisan Platform,AgriTech,Farm Management SaaS,Farmer Communities,300000,5000000,4,69,Low,34.6,Medium,76,Low,98,88,23,Medium,Farmer digital literacy,Hyderabad,Lightspeed,Series A,2144156336,2024
+420,15/01/2026,LastMile AI,Logistics,Fleet Management,B2B,5000000,2000000000,15,73,High,21.8,Medium,64,Medium,76,58,30,High,Fuel cost volatility,Hyderabad,Prosus,Series B,3953603925,2026
+421,05/06/2024,StreamNow Hub,Media/Entertainment,Podcast,Pan-India,20000000,100000000,30,79,High,14.4,Medium,62,Low,64,58,23,High,Content cost,Delhi,Sequoia,Seed,234348762,2024
+422,19/04/2024,BrainBox Labs,EdTech,Language Learning,Urban,200000,2000000,15,81,High,26.9,Low,51,Low,92,73,29,Medium,Post-COVID demand drop,Bangalore,Elevation Capital,Series C,12586086680,2024
+423,01/11/2024,MedEase Solutions,HealthTech,Health Insurance,Corporate Wellness,500000,10000000,12,91,Medium,25.8,High,65,Low,87,88,36,Medium,Doctor onboarding,Mumbai,Accel,Series D,42462907552,2024
+424,10/08/2024,SkillUp Network,EdTech,Skill Courses,Urban,200000,10000000,8,78,High,21.3,Low,47,Low,91,87,32,Medium,High CAC,Chennai,Elevation Capital,Series C,9780678062,2024
+425,23/02/2026,StoryTell Labs,Media/Entertainment,Audio Content,Urban,20000000,500000000,30,81,High,19.8,Medium,63,Low,65,55,24,High,User retention,Bangalore,Sequoia,Series B,2390243445,2026
+426,27/10/2024,ReturnEase Plus,Logistics,Fleet Management,E-Commerce,1000000,20000000,15,80,High,18.7,Medium,65,Medium,71,62,21,High,Thin margins,Bangalore,Warburg Pincus,Series A,444489622,2024
+427,25/11/2024,GameZone Plus,Media/Entertainment,Short Video,Youth,5000000,30000000,60,74,High,13.3,Medium,63,Low,74,54,24,High,Monetisation difficulty,Noida,Sequoia,Series C,8593391728,2024
+428,02/05/2024,TruckEasy Pro,Logistics,Warehousing,B2B,20000000,2000000000,15,88,High,14.2,Medium,60,Medium,80,73,20,High,Asset intensity,Mumbai,Warburg Pincus,Series C,5051855210,2024
+429,01/03/2025,QuizGenius Labs,EdTech,Language Learning,Tier 2 Cities,1000000,100000000,3,87,High,25.1,Low,60,Low,81,82,26,Medium,Content quality issues,Hyderabad,Elevation Capital,Seed,303652008,2025
+430,05/12/2025,GreenBuild AI,CleanTech,Green Hydrogen,Pan-India,2000000,100000000,20,92,Low,54.7,High,66,Low,92,97,21,High,High capex,Pune,Lightspeed,Seed,226477300,2025
+431,09/05/2024,TutorAI Solutions,EdTech,Assessment Tool,Rural,3000000,18000000,25,85,High,23.6,Low,53,Low,90,85,25,Medium,Post-COVID demand drop,Delhi,WestBridge,Seed,289015126,2024
+432,17/11/2025,CashSmart Pro,FinTech,Crypto Exchange,Urban,5000000,40000000,6,93,High,30.9,Medium,71,Low,80,74,39,Medium,Regulatory challenges,Pune,Tiger Global,Seed,132850671,2025
+433,11/03/2024,NicheStore AI,E-Commerce,Quick Commerce,Rural,500000,50000000,30,75,High,19.5,Low,62,Medium,55,64,20,High,Unit economics,Hyderabad,Tiger Global,Series E,66038873034,2024
+434,03/06/2024,BazaarPro Plus,E-Commerce,Subscription Box,Bharat,5000000,10000000,30,80,High,15.7,Low,56,Medium,75,62,29,High,Unit economics,Delhi,Accel,Series A,2081903997,2024
+435,23/10/2025,CashSmart Technologies,FinTech,Stock Trading App,Pan-India,500000,5000000,20,83,High,22.1,Medium,72,Low,73,73,31,Medium,Trust deficit,Delhi,SAIF Partners,Series C,15273956105,2025
+436,23/12/2025,GreenChain Labs,AgriTech,Farm Management SaaS,Rural,1000000,300000000,10,72,Low,24.7,Medium,62,Low,87,83,23,Medium,Seasonality,Bangalore,Accel,Series C,10088629736,2025
+437,26/12/2024,LiveStage Hub,Media/Entertainment,OTT Platform,Youth,1000000,500000000,5,69,High,22.6,Medium,64,Low,62,68,23,High,Content cost,Mumbai,Lightspeed,Seed,255108282,2024
+438,16/09/2024,APIBridge Pro,SaaS/Technology,HR Tech,Enterprise,5000000,200000000,50,94,High,34.0,High,70,Low,63,76,44,Medium,Pricing pressure,Hyderabad,Sequoia,Series C,15333591220,2024
+439,17/07/2024,GrowthSchool Technologies,EdTech,Language Learning,College Students,3000000,10000000,8,81,High,26.5,Low,57,Low,93,78,26,Medium,Post-COVID demand drop,Pune,Accel,Series B,8020687940,2024
+440,02/12/2025,SecureNet Pro,SaaS/Technology,CRM,Startups,5000000,50000000,15,89,High,27.2,High,64,Low,60,82,29,Medium,Long sales cycles,Chennai,Tiger Global,Seed,79009120,2025
+441,24/12/2024,WellnessHub Plus,HealthTech,Genomics,Urban,500000,150000000,8,86,Medium,25.2,High,67,Low,89,79,25,Medium,Doctor onboarding,Mumbai,Lightspeed,Series C,24800563038,2024
+442,26/11/2025,FreightHub Hub,Logistics,Warehousing,Tier 2,20000000,100000000,50,87,High,16.2,Medium,69,Medium,62,64,29,High,Fuel cost volatility,Kolkata,Prosus,Series A,1641584115,2025
+443,24/04/2025,SunPower AI,CleanTech,EV Manufacturing,Tier 1,100000000,2000000000,8,92,Low,30.7,High,78,Low,89,97,24,High,Long payback period,Delhi,Accel,Series D,33703985925,2025
+444,16/02/2025,NutriFit India,HealthTech,Hospital SaaS,Corporate Wellness,10000000,40000000,5,88,Medium,30.0,High,68,Low,90,75,38,Medium,Doctor onboarding,Hyderabad,Eight Roads,Series B,8221913505,2025
+445,27/05/2024,HomeDeal Pro,Real Estate,PropTech SaaS,Tier 1,10000000,1000000000,20,65,Medium,16.1,Low,71,Medium,65,57,18,High,Capital intensity,Mumbai,Helion,Private Equity,78410816700,2024
+446,03/11/2024,GrowthSchool Pro,EdTech,Skill Courses,Urban,1000000,100000000,25,73,High,20.6,Low,65,Low,80,75,24,Medium,Content quality issues,Mumbai,Sequoia Capital,Series A,1230121916,2024
+447,04/02/2025,DroneKisan Technologies,AgriTech,Soil Analytics,Farmer Communities,8000000,20000000,4,74,Low,29.3,Medium,78,Low,91,78,27,Medium,Seasonality,Nagpur,Omnivore,Series C,14662838560,2025
+448,01/01/2025,HomeCure Plus,HealthTech,Mental Health App,Tier 1,10000000,50000000,8,91,Medium,27.9,High,75,Low,92,76,29,Medium,Data privacy issues,Hyderabad,Lightspeed,Seed,380588324,2025
+449,25/08/2025,CarbonCut Network,CleanTech,Waste Management,Government,100000000,300000000,8,80,Low,35.8,High,68,Low,95,95,35,High,Policy dependence,Ahmedabad,Blume,Series A,905006567,2025
+450,08/02/2024,QuizGenius Technologies,EdTech,Ed Games,Tier 2 Cities,200000,10000000,8,73,High,24.1,Low,57,Low,84,88,30,Medium,Post-COVID demand drop,Delhi,Sequoia Capital,Series C,8684606544,2024
+451,29/03/2024,LiveBuy India,E-Commerce,Social Commerce,Tier 2 Cities,500000,50000000,5,83,High,19.7,Low,72,Medium,57,60,20,High,Flipkart/Amazon dominance,Hyderabad,DST Global,Series A,1744802390,2024
+452,25/03/2025,GrowthSchool AI,EdTech,Exam Prep,K-12,200000,10000000,25,79,High,16.3,Low,60,Low,87,71,31,Medium,Content quality issues,Bangalore,WestBridge,Series A,1121820412,2025
+453,12/08/2025,LiveEasy Plus,Real Estate,REITs,Students,50000000,5000000000,80,66,Medium,13.5,Low,68,Medium,80,70,22,High,Regulatory complexity,Mumbai,Sequoia,Series C,24079580452,2025
+454,14/02/2026,EcoStore India,CleanTech,Green Hydrogen,Tier 1,2000000,20000000,20,77,Low,53.7,High,67,Low,96,92,24,High,Policy dependence,Bangalore,Lightspeed,Seed,389590542,2026
+455,03/03/2026,TaxPilot Platform,FinTech,P2P Lending,Mumbai,5000000,50000000,4,87,High,31.0,Medium,59,Low,83,78,36,Medium,High competition from incumbents,Delhi,Sequoia Capital,Seed,299311010,2026
+456,11/01/2024,GameZone AI,Media/Entertainment,Podcast,Regional Language,300000,5000000,8,69,High,13.0,Medium,59,Low,69,57,19,High,Content cost,Delhi,Matrix,Series A,2115734774,2024
+457,29/07/2024,CommercialHub Network,Real Estate,Online Broker,Corporate,50000000,1000000000,80,74,Medium,16.7,Low,72,Medium,78,63,23,High,Regulatory complexity,Pune,Helion,Series A,1568572216,2024
+458,08/11/2024,PureGoods Plus,E-Commerce,B2B Marketplace,Pan-India,5000000,50000000,5,79,High,19.0,Low,69,Medium,58,50,25,High,Logistics costs,Delhi,Nexus,Series D,46659470258,2024
+459,28/01/2025,ColdChain India,Logistics,Cold Chain,Tier 2,50000000,100000000,50,87,High,14.6,Medium,69,Medium,61,72,32,High,Asset intensity,Kolkata,Accel,Series B,4096849260,2025
+460,21/04/2024,SafeVault AI,FinTech,Insurance Tech,Mumbai,5000000,200000000,20,93,High,31.1,Medium,63,Low,75,77,35,Medium,Trust deficit,Mumbai,Tiger Global,Seed,238366030,2024
+461,09/02/2024,ReturnEase Labs,Logistics,Fleet Management,Urban,20000000,80000000,25,88,High,21.3,Medium,68,Medium,65,69,27,High,Thin margins,Delhi,Prosus,Series C,9057800275,2024
+462,17/11/2024,SpaceHub Pro,Real Estate,PropTech SaaS,Pan-India,50000000,1000000000,40,69,Medium,10.3,Low,70,Medium,66,56,21,High,Capital intensity,Bangalore,Sequoia,Private Equity,136479371832,2024
+463,17/01/2024,FarmerFirst Network,AgriTech,Dairy Tech,Rural,1000000,80000000,4,67,Low,30.1,Medium,63,Low,93,80,21,Medium,Farmer digital literacy,Ahmedabad,Sequoia,Series B,6449585842,2024
+464,09/12/2024,WindTech Network,CleanTech,EV Manufacturing,Industrial,2000000,100000000,20,76,Low,37.3,High,69,Low,97,85,23,High,Long payback period,Pune,Blume,Series D,25332898752,2024
+465,25/01/2025,NutriFit Technologies,HealthTech,Online Pharmacy,Urban,10000000,30000000,35,95,Medium,27.9,High,79,Low,90,80,28,Medium,Data privacy issues,Mumbai,Lightspeed,Series B,4257633688,2025
+466,22/03/2024,SunPower Plus,CleanTech,Clean Cooking,Urban,20000000,2000000000,80,82,Low,41.2,High,78,Low,91,94,24,High,Long payback period,Hyderabad,Blume,Series D,22419240400,2024
+467,31/05/2024,BuildTech Pro,Real Estate,Online Broker,Tier 1,200000000,1000000000,8,78,Medium,10.6,Low,80,Medium,65,59,18,High,Long cycles,Chennai,Sequoia,Series B,7602068957,2024
+468,04/09/2024,ConstructAI Technologies,Real Estate,Smart Homes,Pan-India,2000000,50000000,8,76,Medium,17.5,Low,78,Medium,76,68,22,High,Long cycles,Chennai,Tiger Global,Series B,1757233786,2024
+469,29/06/2024,SmartERP Hub,SaaS/Technology,Cybersecurity,Global,2000000,200000000,25,87,High,22.9,High,71,Low,76,86,44,Medium,Churn,Pune,Tiger Global,Series C,5114933364,2024
+470,11/08/2025,GreenChain Network,AgriTech,Agri Marketplace,Pan-India,3000000,20000000,4,74,Low,26.4,Medium,74,Low,88,83,22,Medium,Seasonality,Bangalore,Lightspeed,Series A,686405070,2025
+471,06/07/2025,SafeVault Platform,FinTech,Payment Gateway,Bangalore,500000,50000000,6,84,High,34.0,Medium,73,Low,83,79,36,Medium,High competition from incumbents,Gurugram,SAIF Partners,Seed,125762189,2025
+472,28/12/2024,LearnLocal Technologies,EdTech,School LMS,College Students,200000,30000000,5,86,High,19.4,Low,59,Low,82,80,36,Medium,Post-COVID demand drop,Bangalore,Elevation Capital,Series B,2069381084,2024
+473,13/08/2024,LogiLink Platform,Logistics,Cross Border Shipping,E-Commerce,5000000,2000000000,15,85,High,17.1,Medium,66,Medium,80,57,28,High,Fuel cost volatility,Delhi,Tiger Global,Series C,20088983271,2024
+474,24/01/2025,StoryTell Platform,Media/Entertainment,Creator Economy,Youth,1000000,150000000,8,77,High,20.7,Medium,70,Low,75,64,24,High,User retention,Hyderabad,Kalaari,Series B,4889501818,2025
+475,29/06/2024,ClassMate Network,EdTech,Exam Prep,Tier 2 Cities,3000000,10000000,15,85,High,22.8,Low,52,Low,80,79,26,Medium,Content quality issues,Hyderabad,Sequoia Capital,Seed,268129438,2024
+476,01/10/2024,QuickPay Platform,FinTech,Digital Lending,Delhi NCR,500000,50000000,12,88,High,21.8,Medium,60,Low,87,71,40,Medium,Trust deficit,Pune,Sequoia Capital,Series D,40726589932,2024
+477,27/12/2024,HydroPure Technologies,CleanTech,EV Charging,Government,5000000,500000000,80,81,Low,54.6,High,82,Low,94,98,27,High,Policy dependence,Pune,Blume,Series B,4457267658,2024
+478,11/05/2025,SwiftShip Solutions,Logistics,Cross Border Shipping,Urban,1000000,100000000,15,71,High,17.0,Medium,63,Medium,72,75,26,High,Thin margins,Delhi,Warburg Pincus,Seed,93506306,2025
+479,23/01/2026,KnowledgeHub AI,EdTech,School LMS,K-12,1000000,30000000,15,86,High,24.7,Low,54,Low,88,84,25,Medium,Post-COVID demand drop,Chennai,WestBridge,Series C,9156657762,2026
+480,02/06/2025,LiveEasy AI,Real Estate,Co-working,Corporate,200000000,1000000000,80,68,Medium,12.5,Low,65,Medium,74,62,25,High,Long cycles,Pune,Elevation,Series A,820317527,2025
+481,12/09/2024,ReelUp Solutions,Media/Entertainment,News App,Regional Language,20000000,30000000,5,83,High,15.3,Medium,64,Low,65,56,15,High,User retention,Chennai,Kalaari,Series C,21098692325,2024
+482,25/11/2024,StreetShop Pro,E-Commerce,Live Commerce,Bharat,500000,10000000,30,74,High,15.8,Low,55,Medium,60,66,29,High,Logistics costs,Mumbai,Accel,Series C,8001626394,2024
+483,12/02/2025,SwiftShip Labs,Logistics,Truck Aggregation,E-Commerce,20000000,500000000,100,80,High,20.8,Medium,71,Medium,78,75,22,High,Thin margins,Kolkata,Warburg Pincus,Series E,39225478952,2025
+484,03/02/2026,GreenBuild Solutions,CleanTech,Battery Swapping,Government,100000000,800000000,40,80,Low,33.8,High,67,Low,88,89,26,High,High capex,Mumbai,Lightspeed,Series C,17499316692,2026
+485,19/12/2024,TrendHub India,E-Commerce,B2B Marketplace,Rural,5000000,1000000000,50,81,High,15.7,Low,67,Medium,63,67,26,High,Flipkart/Amazon dominance,Bangalore,Accel,Series D,16344093441,2024
+486,22/10/2025,RegionalVoice Network,Media/Entertainment,Live Streaming,Regional Language,5000000,500000000,8,73,High,12.0,Medium,62,Low,61,54,27,High,Monetisation difficulty,Bangalore,Lightspeed,Series A,418191630,2025
+487,11/11/2025,ColdChain Network,Logistics,Cross Border Shipping,B2B,1000000,100000000,100,82,High,18.2,Medium,72,Medium,75,66,24,High,Fuel cost volatility,Kolkata,Warburg Pincus,Seed,191575470,2025
+488,02/12/2025,KisanPro Plus,AgriTech,Drone Services,Pan-India,1000000,5000000,10,79,Low,34.3,Medium,71,Low,96,91,21,Medium,Last-mile connectivity,Delhi,Lightspeed,Series C,14083953183,2025
+489,02/12/2024,KisanPro Network,AgriTech,Crop Insurance,Agri Cooperatives,300000,80000000,4,85,Low,26.4,Medium,75,Low,91,79,29,Medium,Last-mile connectivity,Pune,Sequoia,Seed,63062122,2024
+490,16/04/2024,PropSmart Network,Real Estate,Co-working,Students,10000000,200000000,12,67,Medium,12.2,Low,68,Medium,63,69,28,High,Regulatory complexity,Delhi,Sequoia,Series A,961559196,2024
+491,09/01/2026,NewsFlash Plus,Media/Entertainment,OTT Platform,Youth,20000000,80000000,8,84,High,13.9,Medium,63,Low,57,57,22,High,Content cost,Chennai,Matrix,Series A,902121475,2026
+492,04/08/2025,IoTHub Technologies,SaaS/Technology,IoT Platform,SMB,500000,10000000,5,84,High,35.1,High,60,Low,70,86,28,Medium,Long sales cycles,Hyderabad,Sequoia,Series B,4435171304,2025
+493,24/02/2024,DroneKisan Labs,AgriTech,Precision Farming,Pan-India,1000000,80000000,18,72,Low,35.4,Medium,68,Low,88,83,22,Medium,Seasonality,Pune,Beenext,Seed,384889743,2024
+494,07/02/2024,GenomeScan AI,HealthTech,Fitness App,Corporate Wellness,2000000,500000000,12,89,Medium,22.5,High,73,Low,86,88,37,Medium,Regulatory approvals,Mumbai,Lightspeed,Series C,18931094783,2024
+495,26/11/2024,NewsFlash Hub,Media/Entertainment,News App,Regional Language,300000,150000000,5,79,High,23.3,Medium,55,Low,60,65,22,High,User retention,Noida,Matrix,Seed,172812018,2024
+496,23/09/2025,TalentOS Hub,SaaS/Technology,IoT Platform,SMB,10000000,500000000,8,86,High,35.0,High,65,Low,75,80,37,Medium,Long sales cycles,Chennai,Accel,Seed,336629081,2025
+497,03/09/2025,AgriPay Plus,AgriTech,Cold Chain,Agri Cooperatives,1000000,20000000,10,66,Low,37.5,Medium,69,Low,97,82,30,Medium,Seasonality,Hyderabad,Beenext,Series A,2262786290,2025
+498,29/08/2024,CareAI AI,HealthTech,Online Pharmacy,Urban,2000000,150000000,5,95,Medium,21.9,High,68,Low,92,89,35,Medium,Doctor onboarding,Hyderabad,Sequoia Capital,Series C,12862221430,2024
+499,21/11/2025,AgriPay AI,AgriTech,Supply Chain,Farmer Communities,300000,80000000,18,83,Low,22.4,Medium,65,Low,97,85,23,Medium,Seasonality,Ahmedabad,Sequoia,Seed,320655197,2025
+500,05/04/2024,FreightHub AI,Logistics,Warehousing,E-Commerce,5000000,500000000,25,82,High,21.4,Medium,75,Medium,61,63,26,High,Thin margins,Chennai,Tiger Global,Series E,47747194782,2024

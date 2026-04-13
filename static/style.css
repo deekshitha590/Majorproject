@@ -1,0 +1,384 @@
+/* 
+   StartupIQ - Custom Stylesheet
+   Background: Animated gradient mesh (purple/blue/teal)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* Root variables */
+:root {
+  --bg:       #04050F;
+  --surface:  #0E1220;
+  --surface2: #141828;
+  --border:   #1E2540;
+  --accent:   #00E5A0;
+  --accent2:  #3B82F6;
+  --purple:   #8B5CF6;
+  --warn:     #F59E0B;
+  --danger:   #EF4444;
+  --text:     #E8EAF0;
+  --muted:    #6B7280;
+  --radius:   16px;
+}
+
+/* Blob animations */
+@keyframes blob1 {
+  0%,100% { transform: translate(0px, 0px) scale(1); }
+  33%     { transform: translate(50px, -40px) scale(1.1); }
+  66%     { transform: translate(-30px, 30px) scale(0.95); }
+}
+@keyframes blob2 {
+  0%,100% { transform: translate(0px, 0px) scale(1); }
+  33%     { transform: translate(-60px, 25px) scale(1.08); }
+  66%     { transform: translate(35px, -50px) scale(1.12); }
+}
+@keyframes blob3 {
+  0%,100% { transform: translate(-50%, -50%) scale(1); }
+  50%     { transform: translate(-50%, -50%) scale(1.15); }
+}
+@keyframes mesh-gradient {
+  0%,100% { background-position: 0% 50%; }
+  50%     { background-position: 100% 50%; }
+}
+
+/*  BACKGROUND LAYER - targets every possible Streamlit wrapper  */
+html,
+body,
+[data-testid="stAppViewContainer"],
+[data-testid="stApp"],
+.stApp,
+section.main {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+/* The animated mesh background div injected via st.markdown */
+.mesh-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.mesh-bg .blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5;
+}
+
+.mesh-bg .blob-1 {
+  width: 700px; height: 700px;
+  top: -200px; left: -200px;
+  background: radial-gradient(circle, #00E5A0 0%, #3B82F6 45%, transparent 70%);
+  animation: blob1 20s ease-in-out infinite;
+}
+
+.mesh-bg .blob-2 {
+  width: 650px; height: 650px;
+  bottom: -150px; right: -150px;
+  background: radial-gradient(circle, #8B5CF6 0%, #3B82F6 40%, transparent 70%);
+  animation: blob2 25s ease-in-out infinite;
+}
+
+.mesh-bg .blob-3 {
+  width: 500px; height: 500px;
+  top: 50%; left: 50%;
+  background: radial-gradient(circle, #6366F1 0%, #00E5A0 50%, transparent 70%);
+  animation: blob3 18s ease-in-out infinite;
+  opacity: 0.2;
+}
+
+/* Dot grid overlay */
+.mesh-bg .grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(139,92,246,0.12) 1px, transparent 1px),
+    radial-gradient(circle, rgba(0,229,160,0.06) 1px, transparent 1px);
+  background-size: 36px 36px, 72px 72px;
+  background-position: 0 0, 18px 18px;
+}
+
+/* Vignette */
+.mesh-bg .vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 110% 80% at 50% 50%,
+    transparent 40%, rgba(4,5,15,0.6) 100%);
+}
+
+/* Make all Streamlit content sit above the mesh */
+[data-testid="stAppViewContainer"] > section,
+[data-testid="stAppViewContainer"] > div,
+.main > div,
+.block-container {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Remove default white/grey Streamlit backgrounds */
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+[data-testid="stHeader"] {
+  background: transparent !important;
+}
+
+section[data-testid="stSidebar"] {
+  background: rgba(14,18,32,0.95) !important;
+  border-right: 1px solid var(--border) !important;
+}
+
+/* Typography */
+h1, h2, h3, h4 { font-family: 'Syne', sans-serif; }
+
+/* Hide Streamlit chrome */
+#MainMenu, footer, header { visibility: hidden; }
+
+/* Block container */
+.block-container {
+  padding-top: 2rem !important;
+  padding-bottom: 4rem !important;
+  background: transparent !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00E5A0, #8B5CF6);
+  border-radius: 3px;
+}
+
+/* Cards */
+.card {
+  background: rgba(14, 18, 32, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: border-color .25s, box-shadow .25s;
+}
+.card:hover {
+  border-color: rgba(0, 229, 160, 0.4);
+  box-shadow: 0 0 28px rgba(0, 229, 160, 0.08);
+}
+
+/* Score rings */
+.score-ring {
+  display: inline-flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  width: 140px; height: 140px;
+  border-radius: 50%;
+  border: 6px solid var(--border);
+  position: relative;
+}
+.score-ring .value {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.2rem; font-weight: 800;
+}
+.score-ring .label {
+  font-size: .7rem; text-transform: uppercase;
+  letter-spacing: .1em; color: var(--muted);
+}
+
+/* Gradient buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #00E5A0, #3B82F6);
+  color: #000 !important;
+  border: none; border-radius: 50px;
+  padding: .7rem 2rem; font-weight: 700;
+  font-family: 'Syne', sans-serif;
+  cursor: pointer; transition: opacity .2s, transform .1s;
+  display: inline-block; text-align: center;
+}
+.btn-primary:hover { opacity: .85; transform: translateY(-1px); }
+
+/* Inputs */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea,
+.stSelectbox > div > div > div {
+  background: rgba(14, 18, 32, 0.9) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(99, 102, 241, 0.3) !important;
+  color: var(--text) !important;
+  border-radius: 10px !important;
+}
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+  border-color: rgba(0, 229, 160, 0.5) !important;
+  box-shadow: 0 0 0 2px rgba(0, 229, 160, 0.12) !important;
+}
+.stSlider > div > div {
+  background: linear-gradient(90deg, #00E5A0, #3B82F6) !important;
+}
+
+/* Alerts */
+.alert-success {
+  background: rgba(0,229,160,.1);
+  border: 1px solid rgba(0,229,160,.4);
+  border-radius: 10px; padding: .75rem 1rem;
+  color: var(--accent); font-weight: 500;
+}
+.alert-error {
+  background: rgba(239,68,68,.1);
+  border: 1px solid rgba(239,68,68,.4);
+  border-radius: 10px; padding: .75rem 1rem;
+  color: var(--danger); font-weight: 500;
+}
+
+/* Navbar */
+.navbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 0 1.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+.navbar .logo {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem; font-weight: 800;
+  background: linear-gradient(135deg, #00E5A0, #3B82F6, #8B5CF6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Idea grid */
+.idea-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem; margin-top: 1rem;
+}
+.idea-card {
+  background: rgba(20, 24, 40, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  transition: border-color .25s, transform .25s, box-shadow .25s;
+}
+.idea-card:hover {
+  border-color: rgba(59,130,246,.5);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(59,130,246,.12);
+}
+.idea-card .idea-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700; font-size: 1rem; margin-bottom: .5rem;
+}
+.idea-card .potential-badge {
+  display: inline-block;
+  font-size: .72rem; font-weight: 600;
+  padding: .2rem .6rem; border-radius: 20px;
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.badge-high   { background: rgba(0,229,160,.15); color: #00E5A0; }
+.badge-medium { background: rgba(245,158,11,.15); color: #F59E0B; }
+.badge-low    { background: rgba(239,68,68,.15);  color: #EF4444; }
+
+/* Section title */
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem; font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase; letter-spacing: .08em;
+  margin-bottom: .75rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Improvement items */
+.improvement-item {
+  display: flex; align-items: flex-start; gap: .75rem;
+  background: rgba(20, 24, 40, 0.8);
+  border-radius: 10px; padding: .85rem 1rem;
+  margin-bottom: .5rem;
+  border-left: 3px solid #3B82F6;
+}
+.improvement-item .num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800; color: #3B82F6; min-width: 24px;
+}
+
+/* Analysis rows */
+.analysis-row {
+  border-bottom: 1px solid var(--border); padding: .85rem 0;
+}
+.analysis-row:last-child { border-bottom: none; }
+.analysis-label {
+  font-size: .75rem; text-transform: uppercase;
+  letter-spacing: .1em; color: var(--muted); margin-bottom: .25rem;
+}
+
+/* Streamlit metric cards */
+div[data-testid="metric-container"] {
+  background: rgba(14,18,32,0.85) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  padding: 1rem !important;
+}
+
+/* Streamlit buttons */
+div.stButton > button {
+  background: rgba(20,24,40,0.9) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  border-radius: 10px !important;
+  transition: border-color .2s, box-shadow .2s;
+}
+div.stButton > button:hover {
+  border-color: rgba(0,229,160,.4) !important;
+  box-shadow: 0 0 16px rgba(0,229,160,.1) !important;
+}
+
+/* History card */
+.hist-card {
+  background: rgba(20,24,40,0.8);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem; margin-bottom: .7rem;
+  transition: border-color .2s; cursor: pointer;
+}
+.hist-card:hover { border-color: var(--accent); }
+
+/* Leaderboard */
+.leaderboard-row {
+  display: flex; align-items: center; gap: 1rem;
+  background: rgba(20,24,40,0.8);
+  border-radius: 10px; padding: .7rem 1rem;
+  margin-bottom: .5rem; border: 1px solid var(--border);
+}
+.rank-num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800; font-size: 1.3rem;
+  color: var(--accent); min-width: 32px;
+}
+
+/* Avatar chat */
+.avatar-face {
+  width: 90px; height: 90px; border-radius: 50%;
+  background: linear-gradient(135deg, #00E5A0, #3B82F6);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.5rem; margin: 0 auto .8rem;
+  animation: blob1 2s infinite;
+}
+.avatar-bubble-ai {
+  background: linear-gradient(135deg, rgba(0,229,160,.08), rgba(59,130,246,.08));
+  border: 1px solid rgba(0,229,160,.25);
+  border-radius: 4px 16px 16px 16px;
+  padding: .9rem 1.1rem; margin: .5rem 0;
+  color: #E8EAF0; font-size: .93rem; line-height: 1.7;
+}
+.avatar-bubble-user {
+  background: rgba(59,130,246,.1);
+  border: 1px solid rgba(59,130,246,.2);
+  border-radius: 16px 4px 16px 16px;
+  padding: .9rem 1.1rem; margin: .5rem 0;
+  color: #CBD5E1; font-size: .93rem; text-align: right;
+}
