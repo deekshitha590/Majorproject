@@ -20,7 +20,7 @@ from modules.database import (
     save_analysis, get_user_analyses, get_analysis_by_id,
     delete_analysis,
 )
-from modules.ai_engine import analyze_idea, generate_ideas
+from modules.ai_engine import analyze_idea, generate_ideas, API_KEY
 
 st.set_page_config(
     page_title="Startup Intelligence Platform",
@@ -330,14 +330,18 @@ def _download_report(r, meta):
 
 def _chat_call(messages: list, api_key: str = "") -> str:
     import urllib.request as _ur
-    from modules.ai_engine import HARDCODED_API_KEY
-    key = api_key or HARDCODED_API_KEY
+
+    key = api_key.strip() or API_KEY
+    if not key:
+        raise ValueError("OPENROUTER_API_KEY is not set. Add it to your .env file.")
+
     payload = json.dumps({
         "model": "openrouter/auto",
         "messages": messages,
         "temperature": 0.5,
         "max_tokens": 600,
     }).encode()
+
     req = _ur.Request(
         "https://openrouter.ai/api/v1/chat/completions",
         data=payload,
@@ -349,10 +353,11 @@ def _chat_call(messages: list, api_key: str = "") -> str:
         },
         method="POST",
     )
+
     with _ur.urlopen(req, timeout=30) as resp:
         body = json.loads(resp.read().decode())
-    return body["choices"][0]["message"]["content"].strip()
 
+    return body["choices"][0]["message"]["content"].strip()
 
 # ═══════════════════════════════════════════════════════════
 #  HOME PAGE

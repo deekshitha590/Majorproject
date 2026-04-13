@@ -1,133 +1,6 @@
-# import json
-# import re
-# import urllib.request
-# import urllib.error
-
-# OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-# HARDCODED_API_KEY = "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"
-
-# SYSTEM_PROMPT = (
-#     "You are a business analyst and startup consultant for the Indian market. "
-#     "Evaluate startup ideas and return ONLY a valid JSON object. "
-#     "No markdown, no explanation outside the JSON."
-# )
-
-# ANALYSIS_TEMPLATE = """\
-# Evaluate this startup idea. Return ONLY valid JSON, no extra text:
-
-# - Market: {locality}
-# - Budget: {budget}
-# - Team Size: {team_size} people
-# - Domain: {domain}
-# - Idea: {idea}
-
-# JSON structure to return:
-# {{
-#   "success_probability": <integer 0-100>,
-#   "sustainability_score": <integer 0-100>,
-#   "analysis": {{
-#     "market_demand": "<2 sentence market demand assessment>",
-#     "competition": "<2 sentence competitive landscape>",
-#     "feasibility": "<2 sentence feasibility for Indian market>",
-#     "scalability": "<2 sentence scalability outlook>"
-#   }},
-#   "improvements": ["<improvement 1>","<improvement 2>","<improvement 3>"],
-#   "new_ideas": [
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"High"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"High"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"Medium"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"Medium"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"Medium"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"Low"}},
-#     {{"title":"<title>","description":"<1 sentence>","market_potential":"Low"}}
-#   ],
-#   "summary": "<2 sentence overall assessment>"
-# }}
-
-# Use INR for money. Be concise and specific.
-# """
-
-
-# def _try_parse(raw: str) -> dict:
-#     raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-#     raw = re.sub(r"\s*```\s*$", "", raw, flags=re.MULTILINE)
-#     raw = raw.strip()
-#     try:
-#         return json.loads(raw)
-#     except json.JSONDecodeError:
-#         pass
-#     match = re.search(r"\{.*\}", raw, re.DOTALL)
-#     if match:
-#         try:
-#             return json.loads(match.group())
-#         except json.JSONDecodeError:
-#             pass
-#     raise ValueError(f"Could not parse response as JSON: {raw[:200]}")
-
-
-# def analyze_idea(locality: str, budget: str, team_size: int,
-#                  domain: str, idea: str, api_key: str = "") -> dict:
-#     key = api_key.strip() or HARDCODED_API_KEY.strip()
-
-#     prompt = ANALYSIS_TEMPLATE.format(
-#         locality=locality, budget=budget,
-#         team_size=team_size, domain=domain, idea=idea,
-#     )
-
-#     models_to_try = [
-#         "openrouter/auto",
-#         "mistralai/mistral-7b-instruct",
-#         "meta-llama/llama-3.1-8b-instruct:free",
-#         "google/gemma-2-9b-it:free",
-#     ]
-
-#     last_error = None
-#     for model in models_to_try:
-#         payload = json.dumps({
-#             "model": model,
-#             "messages": [
-#                 {"role": "system", "content": SYSTEM_PROMPT},
-#                 {"role": "user", "content": prompt},
-#             ],
-#             "temperature": 0.3,
-#             "max_tokens": 1200,
-#         }).encode("utf-8")
-
-#         req = urllib.request.Request(
-#             OPENROUTER_URL,
-#             data=payload,
-#             headers={
-#                 "Content-Type": "application/json",
-#                 "Authorization": f"Bearer {key}",
-#                 "HTTP-Referer": "http://localhost:8501",
-#                 "X-Title": "Startup Analyzer",
-#             },
-#             method="POST",
-#         )
-#         try:
-#             with urllib.request.urlopen(req, timeout=45) as resp:
-#                 body = json.loads(resp.read().decode("utf-8"))
-
-#             if "error" in body:
-#                 last_error = body["error"]
-#                 continue
-
-#             raw = body["choices"][0]["message"]["content"].strip()
-#             return _try_parse(raw)
-
-#         except urllib.error.HTTPError as exc:
-#             err_body = exc.read().decode("utf-8", errors="replace")
-#             last_error = f"HTTP {exc.code}: {err_body[:200]}"
-#             continue
-#         except Exception as exc:
-#             last_error = str(exc)
-#             continue
-
-#     raise ValueError(f"All models failed. Last error: {last_error}")
-
 """
 ai_engine.py — AI analysis engine via OpenRouter (FREE)
-SUCCESS & SUSTAINABILITY SCORES are now calculated from the real dataset.
+SUCCESS & SUSTAINABILITY SCORES are calculated from the real dataset.
 The AI receives the dataset scores and provides qualitative analysis only.
 """
 
@@ -136,9 +9,12 @@ import os
 import re
 import urllib.request
 import urllib.error
+from dotenv import load_dotenv
+
+load_dotenv()
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-HARDCODED_API_KEY = "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"  # ← paste your key once here
+API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
 
 SYSTEM_PROMPT = (
     "You are a venture capitalist, market analyst, and sustainability consultant "
@@ -212,119 +88,6 @@ Rules:
 - Use INR for all monetary values
 - All analysis must reference the dataset scores and the user's specific inputs
 """
-
-
-def _try_parse(raw: str) -> dict:
-    raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-    raw = re.sub(r"\s*```\s*$", "", raw, flags=re.MULTILINE)
-    raw = raw.strip()
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        pass
-    match = re.search(r"\{.*\}", raw, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group())
-        except json.JSONDecodeError:
-            pass
-    raise ValueError(f"Could not parse AI response as JSON: {raw[:200]}")
-
-
-def analyze_idea(locality: str, budget: str, team_size: int,
-                 domain: str, idea: str, api_key: str = "",
-                 dataset_scores: dict = None) -> dict:
-    """
-    Call OpenRouter API with dataset-calculated scores embedded in the prompt.
-    The AI explains the scores and provides analysis — it does NOT generate new scores.
-
-    dataset_scores: dict from get_domain_stats() containing:
-        success_rate, sustainability_score, market_demand_score, feasibility_score,
-        scalability_score, competition_level, growth_rate, risk_level,
-        social_impact_score, funded_startups
-    """
-    key = api_key.strip() or os.environ.get("OPENROUTER_API_KEY", "").strip() or HARDCODED_API_KEY
-
-    # Use dataset scores if provided, else use fallback defaults
-    ds = dataset_scores or {}
-    success_prob    = ds.get("success_rate", 50)
-    sustain_score   = ds.get("sustainability_score", 60)
-    mkt_demand      = ds.get("market_demand_score", 65)
-    feasibility     = ds.get("feasibility_score", 60)
-    scalability     = ds.get("scalability_score", 55)
-    competition     = ds.get("competition_level", "Medium")
-    growth          = ds.get("growth_rate", 15.0)
-    risk            = ds.get("risk_level", "Medium")
-    social_impact   = ds.get("social_impact_score", 65)
-    funded_startups = ds.get("funded_startups", 0)
-
-    prompt = ANALYSIS_TEMPLATE.format(
-        locality=locality, budget=budget, team_size=team_size,
-        domain=domain, idea=idea,
-        success_probability=success_prob,
-        sustainability_score=sustain_score,
-        market_demand_score=mkt_demand,
-        feasibility_score=feasibility,
-        scalability_score=scalability,
-        competition_level=competition,
-        growth_rate=growth,
-        risk_level=risk,
-        social_impact_score=social_impact,
-        funded_startups=funded_startups,
-    )
-
-    models_to_try = [
-        "openrouter/auto",
-        "meta-llama/llama-3.1-8b-instruct:free",
-        "google/gemma-2-9b-it:free",
-    ]
-
-    last_error = None
-    for model in models_to_try:
-        payload = json.dumps({
-            "model": model,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user",   "content": prompt},
-            ],
-            "temperature": 0.3,
-            "max_tokens": 1400,
-        }).encode("utf-8")
-
-        req = urllib.request.Request(
-            OPENROUTER_URL, data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {key}",
-                "HTTP-Referer": "http://localhost:8501",
-                "X-Title": "StartupIQ Analyzer",
-            },
-            method="POST",
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=45) as resp:
-                body = json.loads(resp.read().decode("utf-8"))
-            if "error" in body:
-                last_error = body["error"]
-                continue
-            raw = body["choices"][0]["message"]["content"].strip()
-            result = _try_parse(raw)
-            # Force dataset scores regardless of what AI returned
-            result["success_probability"]  = success_prob
-            result["sustainability_score"] = sustain_score
-            return result
-        except urllib.error.HTTPError as exc:
-            last_error = f"HTTP {exc.code}: {exc.read().decode('utf-8', errors='replace')[:200]}"
-            continue
-        except Exception as exc:
-            last_error = str(exc)
-            continue
-
-    raise ValueError(f"All models failed. Last error: {last_error}")
-
-# ═══════════════════════════════════════════════════════════════════════════════
-#  GENERATE MODE — User has no idea yet
-# ═══════════════════════════════════════════════════════════════════════════════
 
 GENERATE_SYSTEM = (
     "You are a startup mentor and venture capitalist specialised in the Indian ecosystem. "
@@ -409,22 +172,137 @@ Return ONLY this JSON (no extra text):
   }}
 }}
 
-Use INR for money. Be specific for {locality}."""
+Use INR for money. Be specific for {locality}.
+"""
+
+
+def _get_api_key(api_key: str = "") -> str:
+    key = api_key.strip() or API_KEY
+    if not key:
+        raise ValueError("OPENROUTER_API_KEY is not set. Add it to your .env file.")
+    return key
+
+
+def _try_parse(raw: str) -> dict:
+    raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
+    raw = re.sub(r"\s*```\s*$", "", raw, flags=re.MULTILINE)
+    raw = raw.strip()
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+
+    match = re.search(r"\{.*\}", raw, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+
+    raise ValueError(f"Could not parse AI response as JSON: {raw[:200]}")
+
+
+def analyze_idea(locality: str, budget: str, team_size: int,
+                 domain: str, idea: str, api_key: str = "",
+                 dataset_scores: dict = None) -> dict:
+    key = _get_api_key(api_key)
+
+    ds = dataset_scores or {}
+    success_prob = ds.get("success_rate", 50)
+    sustain_score = ds.get("sustainability_score", 60)
+    mkt_demand = ds.get("market_demand_score", 65)
+    feasibility = ds.get("feasibility_score", 60)
+    scalability = ds.get("scalability_score", 55)
+    competition = ds.get("competition_level", "Medium")
+    growth = ds.get("growth_rate", 15.0)
+    risk = ds.get("risk_level", "Medium")
+    social_impact = ds.get("social_impact_score", 65)
+    funded_startups = ds.get("funded_startups", 0)
+
+    prompt = ANALYSIS_TEMPLATE.format(
+        locality=locality,
+        budget=budget,
+        team_size=team_size,
+        domain=domain,
+        idea=idea,
+        success_probability=success_prob,
+        sustainability_score=sustain_score,
+        market_demand_score=mkt_demand,
+        feasibility_score=feasibility,
+        scalability_score=scalability,
+        competition_level=competition,
+        growth_rate=growth,
+        risk_level=risk,
+        social_impact_score=social_impact,
+        funded_startups=funded_startups,
+    )
+
+    models_to_try = [
+        "openrouter/auto",
+        "meta-llama/llama-3.1-8b-instruct:free",
+        "google/gemma-2-9b-it:free",
+    ]
+
+    last_error = None
+    for model in models_to_try:
+        payload = json.dumps({
+            "model": model,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.3,
+            "max_tokens": 1400,
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            OPENROUTER_URL,
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {key}",
+                "HTTP-Referer": "http://localhost:8501",
+                "X-Title": "StartupIQ Analyzer",
+            },
+            method="POST",
+        )
+
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+
+            if "error" in body:
+                last_error = body["error"]
+                continue
+
+            raw = body["choices"][0]["message"]["content"].strip()
+            result = _try_parse(raw)
+            result["success_probability"] = success_prob
+            result["sustainability_score"] = sustain_score
+            return result
+
+        except urllib.error.HTTPError as exc:
+            last_error = f"HTTP {exc.code}: {exc.read().decode('utf-8', errors='replace')[:200]}"
+            continue
+        except Exception as exc:
+            last_error = str(exc)
+            continue
+
+    raise ValueError(f"All models failed. Last error: {last_error}")
 
 
 def generate_ideas(locality: str, budget: str, team_size: int,
                    domain: str, context: str = "", api_key: str = "",
                    dataset_scores: dict = None) -> dict:
-    """
-    MODE 1 — User has NO idea yet.
-    Uses dataset scores to generate 3 relevant startup ideas + step-by-step launch plan.
-    """
-    key = api_key.strip() or os.environ.get("OPENROUTER_API_KEY", "").strip() or HARDCODED_API_KEY
+    key = _get_api_key(api_key)
 
     ds = dataset_scores or {}
     prompt = GENERATE_TEMPLATE.format(
-        locality=locality, budget=budget, team_size=team_size,
-        domain=domain, context=context or "First-time entrepreneur",
+        locality=locality,
+        budget=budget,
+        team_size=team_size,
+        domain=domain,
+        context=context or "First-time entrepreneur",
         success_rate=ds.get("success_rate", 50),
         sustainability_score=ds.get("sustainability_score", 60),
         market_demand_score=ds.get("market_demand_score", 65),
@@ -445,14 +323,15 @@ def generate_ideas(locality: str, budget: str, team_size: int,
             "model": model,
             "messages": [
                 {"role": "system", "content": GENERATE_SYSTEM},
-                {"role": "user",   "content": prompt},
+                {"role": "user", "content": prompt},
             ],
             "temperature": 0.5,
             "max_tokens": 1400,
         }).encode("utf-8")
 
         req = urllib.request.Request(
-            OPENROUTER_URL, data=payload,
+            OPENROUTER_URL,
+            data=payload,
             headers={
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {key}",
@@ -461,15 +340,19 @@ def generate_ideas(locality: str, budget: str, team_size: int,
             },
             method="POST",
         )
+
         try:
             with urllib.request.urlopen(req, timeout=45) as resp:
                 body = json.loads(resp.read().decode("utf-8"))
+
             if "error" in body:
                 last_error = body["error"]
                 continue
-            raw    = body["choices"][0]["message"]["content"].strip()
+
+            raw = body["choices"][0]["message"]["content"].strip()
             result = _try_parse(raw)
             return result
+
         except urllib.error.HTTPError as exc:
             last_error = f"HTTP {exc.code}: {exc.read().decode('utf-8', errors='replace')[:200]}"
             continue
